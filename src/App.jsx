@@ -38,12 +38,13 @@ export const LEIPZIG_JAKARTA_100 = [
     "liver", "breast", "sun", "night", "eat", "moon", "go", "thigh", "stone", "tongue",
     "I", "ash", "he/she/it", "drink", "laugh", "path/road", "sand", "bite", "wing", "fly",
     "star", "egg", "hide", "tail", "earth/soil", "navel", "root", "fish", "see", "tree",
-    "hand", "neck", "wind", "child", "skin", "stand", "we", "give", "house", "who",
-    "smoke", "ant", "mouth", "take", "bite", "tear", "burn", "wood", "spit", "tie",
+    "hand", "neck", "wind", "child", "skin", "stand", "nose", "give", "house", "who",
+    "smoke", "ant", "mouth", "take", "we (excl)", "tear", "burn", "wood", "spit", "tie",
     "salt", "rain", "yesterday", "die", "two", "blow", "kill", "one", "what", "weep/cry",
-    "this", "bite", "fly", "not", "say", "where", "big", "bird", "do/make", "person/human",
+    "this", "we (incl)", "ear", "not", "say", "where", "big", "bird", "do/make", "person/human",
     "good", "long", "new", "black", "head", "heavy", "shadow", "all", "old", "white"
 ];
+
 
 const parseCSVRow = (row) => {
     const result = [];
@@ -474,6 +475,84 @@ export default function App() {
         }));
     };
 
+    useEffect(() => {
+        if (activeTab !== 'comparisons' || !activeComparison || !compSurvey || !compDict || !activeGlossId) return;
+
+        const handleGlobalKeyDown = (e) => {
+            const isMod = e.ctrlKey || e.metaKey;
+            if (!isMod) return;
+
+            const key = e.key.toLowerCase();
+            if (e.key === 'enter') {
+                e.preventDefault();
+                const idx = compDict.glosses.findIndex(g => g.id === activeGlossId);
+                if (idx !== -1 && idx < compDict.glosses.length - 1) {
+                    setActiveGlossId(compDict.glosses[idx + 1].id);
+                    setMagnifiedText('');
+                }
+            } else if (key === 'g') {
+                e.preventDefault();
+                const currentIndex = compDict.glosses.findIndex(g => g.id === activeGlossId);
+                for (let i = currentIndex + 1; i < compDict.glosses.length; i++) {
+                    const gList = compDict.glosses[i];
+                    const jSet = activeComparison.judgments[gList.id] || {};
+                    let isDone = true;
+                    for (let v of compSurvey.varieties) {
+                        if (!jSet[v.id]?.excluded && !jSet[v.id]?.groupingChar?.trim()) {
+                            isDone = false;
+                            break;
+                        }
+                    }
+                    if (!isDone) {
+                        setActiveGlossId(gList.id);
+                        setMagnifiedText('');
+                        break;
+                    }
+                }
+            } else if (key === 'e') {
+                e.preventDefault();
+                compSurvey.varieties.forEach(v => updateJudgment(activeGlossId, v.id, 'excluded', true));
+            } else if (key === 's') {
+                e.preventDefault();
+                const activeJudgments = activeComparison.judgments[activeGlossId] || {};
+                const indexedVarieties = [];
+                const forms = [];
+                compSurvey.varieties.forEach(v => {
+                    const j = activeJudgments[v.id] || {};
+                    if (j.excluded) return;
+                    const trans = (v.transcriptions[activeGlossId]?.transcription || '').trim();
+                    if (!trans) return;
+                    indexedVarieties.push(v.id);
+                    forms.push(trans);
+                });
+                if (forms.length > 0) {
+                    const suggestedLabels = suggestGroupings(forms, activeComparison.type);
+                    setComparisons(prev => prev.map(c => {
+                        if (c.id !== activeComparisonId) return c;
+                        const currentGlossJudgments = { ...(c.judgments[activeGlossId] || {}) };
+                        indexedVarieties.forEach((vId, idx) => {
+                            const currentVarietyJudgment = currentGlossJudgments[vId] || { groupingChar: '', aligned: '', excluded: false, notes: '' };
+                            currentGlossJudgments[vId] = {
+                                ...currentVarietyJudgment,
+                                groupingChar: suggestedLabels[idx]
+                            };
+                        });
+                        return {
+                            ...c,
+                            judgments: {
+                                ...c.judgments,
+                                [activeGlossId]: currentGlossJudgments
+                            }
+                        };
+                    }));
+                }
+            }
+        };
+
+        window.addEventListener('keydown', handleGlobalKeyDown);
+        return () => window.removeEventListener('keydown', handleGlobalKeyDown);
+    }, [activeTab, activeComparisonId, activeGlossId, comparisons, compSurvey, compDict, updateJudgment]);
+
     // Deriving varieties count
     const varietiesCount = surveys.reduce((acc, s) => acc + (s.varieties?.length || 0), 0);
 
@@ -656,7 +735,7 @@ export default function App() {
                 </div>
 
                 {/* Right Area: Active Dictionary Editor */}
-                <div className="w-3/4 flex flex-col relative h-[calc(100vh-14rem)]">
+                <div className="w-3/4 flex flex-col relative h-full">
                     {!activeDict ? (
                         <div className="m-auto text-slate-400 flex flex-col items-center">
                             <Book className="w-12 h-12 mb-2 opacity-50" />
@@ -1388,76 +1467,7 @@ export default function App() {
                                 </div>
 
                                 {/* Judgment Grid */}
-                                <div
-                                    className="flex-1 overflow-auto bg-white p-4"
-                                    onKeyDown={(e) => {
-                                        // Keyboard shortcuts wrapper
-                                        if (e.ctrlKey && e.key === 'Enter') {
-                                            e.preventDefault();
-                                            const idx = compDict.glosses.findIndex(g => g.id === activeGlossId);
-                                            if (idx < compDict.glosses.length - 1) setActiveGlossId(compDict.glosses[idx + 1].id);
-                                        }
-                                        else if (e.ctrlKey && e.key === 'g') {
-                                            e.preventDefault();
-                                            // Find next ungrouped
-                                            const currentIndex = compDict.glosses.findIndex(g => g.id === activeGlossId);
-                                            for (let i = currentIndex + 1; i < compDict.glosses.length; i++) {
-                                                const gList = compDict.glosses[i];
-                                                const jSet = activeComparison.judgments[gList.id] || {};
-                                                let isDone = true;
-                                                for (let v of compSurvey.varieties) {
-                                                    if (!jSet[v.id]?.excluded && !jSet[v.id]?.groupingChar?.trim()) {
-                                                        isDone = false; break;
-                                                    }
-                                                }
-                                                if (!isDone) {
-                                                    setActiveGlossId(gList.id);
-                                                    break;
-                                                }
-                                            }
-                                        }
-                                        else if (e.ctrlKey && e.key === 'e') {
-                                            e.preventDefault();
-                                            compSurvey.varieties.forEach(v => updateJudgment(activeGlossId, v.id, 'excluded', true));
-                                        }
-                                        else if (e.ctrlKey && e.key === 's') {
-                                            e.preventDefault();
-                                            // Suggest trigger helper inline
-                                            if (!activeComparison || !compSurvey || !activeGlossId) return;
-                                            const activeJudgments = activeComparison.judgments[activeGlossId] || {};
-                                            const indexedVarieties = [];
-                                            const forms = [];
-                                            compSurvey.varieties.forEach(v => {
-                                                const j = activeJudgments[v.id] || {};
-                                                if (j.excluded) return;
-                                                const trans = (v.transcriptions[activeGlossId]?.transcription || '').trim();
-                                                if (!trans) return;
-                                                indexedVarieties.push(v.id);
-                                                forms.push(trans);
-                                            });
-                                            if (forms.length === 0) return;
-                                            const suggestedLabels = suggestGroupings(forms, activeComparison.type);
-                                            setComparisons(prev => prev.map(c => {
-                                                if (c.id !== activeComparisonId) return c;
-                                                const currentGlossJudgments = { ...(c.judgments[activeGlossId] || {}) };
-                                                indexedVarieties.forEach((vId, idx) => {
-                                                    const currentVarietyJudgment = currentGlossJudgments[vId] || { groupingChar: '', aligned: '', excluded: false, notes: '' };
-                                                    currentGlossJudgments[vId] = {
-                                                        ...currentVarietyJudgment,
-                                                        groupingChar: suggestedLabels[idx]
-                                                    };
-                                                });
-                                                return {
-                                                    ...c,
-                                                    judgments: {
-                                                        ...c.judgments,
-                                                        [activeGlossId]: currentGlossJudgments
-                                                    }
-                                                };
-                                            }));
-                                        }
-                                    }}
-                                >
+                                <div className="flex-1 overflow-auto bg-white p-4">
                                     <table className="w-full text-left border-collapse text-sm border-slate-200 border">
                                         <thead className="bg-slate-100 sticky top-0 z-0">
                                             <tr>
@@ -2318,7 +2328,7 @@ export default function App() {
     };
 
     return (
-        <div className="flex flex-col min-h-screen bg-slate-50 font-sans">
+        <div className="flex flex-col h-screen bg-slate-50 font-sans overflow-hidden">
             {renderRestorePrompt()}
             {renderIpaPalette()}
 
