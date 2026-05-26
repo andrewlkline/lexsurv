@@ -256,6 +256,28 @@ export default function App() {
         setNewDictName('');
     };
 
+    const deleteGlossDictionary = (dictId) => {
+        setGlossDictionaries(prev => prev.filter(d => d.id !== dictId));
+        
+        const surveysToDelete = surveys.filter(s => s.dictionaryId === dictId);
+        const surveyIdsToDelete = surveysToDelete.map(s => s.id);
+        
+        setSurveys(prev => prev.filter(s => s.dictionaryId !== dictId));
+        setComparisons(prev => prev.filter(c => !surveyIdsToDelete.includes(c.surveyId)));
+        
+        if (activeDictionaryId === dictId) {
+            setActiveDictionaryId(null);
+        }
+        if (activeSurveyId && surveyIdsToDelete.includes(activeSurveyId)) {
+            setActiveSurveyId(null);
+            setActiveVarietyId(null);
+        }
+        if (activeComparisonId && surveyIdsToDelete.includes(activeComparison?.surveyId)) {
+            setActiveComparisonId(null);
+            setActiveGlossId(null);
+        }
+    };
+
     const activeDict = glossDictionaries.find(d => d.id === activeDictionaryId);
 
     const updateActiveDictionaryGlosses = (newGlosses) => {
@@ -292,8 +314,7 @@ export default function App() {
             pos: '',
             fieldTip: ''
         }));
-        // Append or replace? Let's just append to be safe
-        updateActiveDictionaryGlosses([...activeDict.glosses, ...newGlosses]);
+        updateActiveDictionaryGlosses(newGlosses);
     };
 
     const handleFileUpload = (e) => {
@@ -722,14 +743,29 @@ export default function App() {
                             <p className="text-sm text-slate-500 italic mt-2">No dictionaries created.</p>
                         )}
                         {glossDictionaries.map(dict => (
-                            <button
+                            <div
                                 key={dict.id}
-                                onClick={() => setActiveDictionaryId(dict.id)}
-                                className={`w-full text-left px-3 py-2 rounded text-sm transition-colors ${activeDictionaryId === dict.id ? 'bg-blue-100 text-blue-800 font-medium' : 'text-slate-700 hover:bg-slate-200'
-                                    }`}
+                                className={`w-full flex items-center justify-between px-3 py-1.5 rounded text-sm transition-colors group ${activeDictionaryId === dict.id ? 'bg-blue-100 text-blue-800 font-medium' : 'text-slate-700 hover:bg-slate-200'}`}
                             >
-                                {dict.name} <span className="text-xs text-slate-400 float-right">({dict.glosses.length})</span>
-                            </button>
+                                <button
+                                    onClick={() => setActiveDictionaryId(dict.id)}
+                                    className="flex-1 text-left truncate mr-2 cursor-pointer"
+                                >
+                                    {dict.name} <span className="text-xs text-slate-400">({dict.glosses.length})</span>
+                                </button>
+                                <button
+                                    onClick={(e) => {
+                                        e.stopPropagation();
+                                        if (window.confirm(`Delete dictionary '${dict.name}'? This will also remove any surveys and comparisons based on this dictionary.`)) {
+                                            deleteGlossDictionary(dict.id);
+                                        }
+                                    }}
+                                    className="text-slate-400 hover:text-red-500 hover:bg-red-50 p-1 rounded transition-colors opacity-0 group-hover:opacity-100 focus:opacity-100 cursor-pointer"
+                                    title="Delete Dictionary"
+                                >
+                                    <Trash2 className="w-3.5 h-3.5" />
+                                </button>
+                            </div>
                         ))}
                     </div>
                 </div>
@@ -755,7 +791,7 @@ export default function App() {
                                         className="text-sm border border-slate-300 rounded px-2 py-1.5 bg-white text-slate-700 cursor-pointer hover:border-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                         onChange={(e) => {
                                             if (!e.target.value) return;
-                                            if (window.confirm("Append this preset to the current dictionary?")) {
+                                            if (window.confirm("Replace the current dictionary with this preset? All current glosses in this dictionary will be lost.")) {
                                                 if (e.target.value === 'swadesh100') loadPreset(SWADESH_100);
                                                 if (e.target.value === 'swadesh207') loadPreset(SWADESH_207);
                                                 if (e.target.value === 'leipzig') loadPreset(LEIPZIG_JAKARTA_100);
