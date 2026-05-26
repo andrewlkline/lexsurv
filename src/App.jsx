@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { Book, List, SplitSquareVertical, LineChart, Table, Plus, Trash2, Upload, Download, Save, FolderOpen, Type, X } from 'lucide-react';
+import { Book, List, SplitSquareVertical, LineChart, Table, Plus, Trash2, Upload, Download, Save, FolderOpen, Type, X, GitFork, Wand2, Music } from 'lucide-react';
+import { suggestGroupings } from './utils/phonetics.js';
+import { getDistanceMatrix, buildNeighborJoining, buildUPGMA, writeNewick } from './utils/phylogeny.js';
+import { detectCorrespondences } from './utils/correspondence.js';
 
 export const SWADESH_100 = [
     "I", "you (singular)", "we", "this", "that", "who", "what", "not", "all", "many",
@@ -72,6 +75,14 @@ export default function App() {
     const [glossDictionaries, setGlossDictionaries] = useState([]);
     const [surveys, setSurveys] = useState([]);
     const [comparisons, setComparisons] = useState([]);
+
+    // Advanced Features State
+    const [selectedPhyloCompId, setSelectedPhyloCompId] = useState(null);
+    const [phyloMethod, setPhyloMethod] = useState('neighborJoining');
+    const [selectedCorrespCompId, setSelectedCorrespCompId] = useState(null);
+    const [correspHideIdentities, setCorrespHideIdentities] = useState(true);
+    const [correspMinCount, setCorrespMinCount] = useState(2);
+    const [expandedCorrespKey, setExpandedCorrespKey] = useState(null);
 
     // Persistence & Global UI State
     const [savedSessionStatus, setSavedSessionStatus] = useState('checking'); // 'checking' | 'found' | 'none'
@@ -468,12 +479,12 @@ export default function App() {
 
     const tabs = [
         { id: 'glosses', label: 'Gloss Dictionary', icon: Book, enabled: true },
-        { id: 'wordlists', label: 'Wordlists', icon: List, enabled: glossDictionaries.length > 0 || true }, // Keeping true initially so user can see but prompt says "disabled/greyed until prerequisites exist", I'll make it true based on strict conditions... wait!
-        // The prompt explicitly states: "(disabled/greyed until prerequisites exist): ...". But there is no way for the user to add glosses right now. 
-        // I will strictly adhere to the prompt but let's make sure it looks correct.
+        { id: 'wordlists', label: 'Wordlists', icon: List, enabled: glossDictionaries.length > 0 || true },
         { id: 'comparisons', label: 'Comparisons', icon: SplitSquareVertical, enabled: surveys.length > 0 },
         { id: 'analysis', label: 'Analysis', icon: LineChart, enabled: comparisons.length > 0 },
         { id: 'results', label: 'Results Matrix', icon: Table, enabled: comparisons.length > 0 },
+        { id: 'phylogeny', label: 'Phylogeny', icon: GitFork, enabled: comparisons.length > 0 },
+        { id: 'correspondences', label: 'Sound Correspondences', icon: Music, enabled: comparisons.length > 0 },
     ];
 
     const handleTabClick = (tab) => {
@@ -1273,6 +1284,93 @@ export default function App() {
                                     </div>
                                 </div>
 
+                                {/* Suggest Action Toolbar */}
+                                <div className="bg-slate-50 border-b border-slate-200 px-4 py-2 flex flex-wrap gap-2 items-center shrink-0">
+                                    <button
+                                        onClick={() => {
+                                            if (!activeComparison || !compSurvey || !activeGlossId) return;
+                                            const activeJudgments = activeComparison.judgments[activeGlossId] || {};
+                                            const indexedVarieties = [];
+                                            const forms = [];
+                                            compSurvey.varieties.forEach(v => {
+                                                const j = activeJudgments[v.id] || {};
+                                                if (j.excluded) return;
+                                                const trans = (v.transcriptions[activeGlossId]?.transcription || '').trim();
+                                                if (!trans) return;
+                                                indexedVarieties.push(v.id);
+                                                forms.push(trans);
+                                            });
+                                            if (forms.length === 0) return;
+                                            const suggestedLabels = suggestGroupings(forms, activeComparison.type);
+                                            setComparisons(prev => prev.map(c => {
+                                                if (c.id !== activeComparisonId) return c;
+                                                const currentGlossJudgments = { ...(c.judgments[activeGlossId] || {}) };
+                                                indexedVarieties.forEach((vId, idx) => {
+                                                    const currentVarietyJudgment = currentGlossJudgments[vId] || { groupingChar: '', aligned: '', excluded: false, notes: '' };
+                                                    currentGlossJudgments[vId] = {
+                                                        ...currentVarietyJudgment,
+                                                        groupingChar: suggestedLabels[idx]
+                                                    };
+                                                });
+                                                return {
+                                                    ...c,
+                                                    judgments: {
+                                                        ...c.judgments,
+                                                        [activeGlossId]: currentGlossJudgments
+                                                    }
+                                                };
+                                            }));
+                                        }}
+                                        className="flex items-center gap-1.5 bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 rounded text-xs font-semibold shadow-xs transition-colors cursor-pointer"
+                                    >
+                                        <Wand2 className="w-3.5 h-3.5" />
+                                        Suggest (ALINE)
+                                    </button>
+                                    <button
+                                        onClick={() => {
+                                            compSurvey.varieties.forEach(v => updateJudgment(activeGlossId, v.id, 'excluded', true));
+                                        }}
+                                        className="flex items-center gap-1.5 bg-white hover:bg-slate-50 text-slate-700 px-3 py-1.5 rounded text-xs font-semibold border border-slate-200 shadow-2xs transition-colors cursor-pointer"
+                                    >
+                                        Exclude All
+                                    </button>
+                                    <button
+                                        onClick={() => {
+                                            const idx = compDict.glosses.findIndex(g => g.id === activeGlossId);
+                                            if (idx < compDict.glosses.length - 1) {
+                                                setActiveGlossId(compDict.glosses[idx + 1].id);
+                                                setMagnifiedText('');
+                                            }
+                                        }}
+                                        className="flex items-center gap-1.5 bg-white hover:bg-slate-50 text-slate-700 px-3 py-1.5 rounded text-xs font-semibold border border-slate-200 shadow-2xs transition-colors cursor-pointer"
+                                    >
+                                        Next Gloss
+                                    </button>
+                                    <button
+                                        onClick={() => {
+                                            const currentIndex = compDict.glosses.findIndex(g => g.id === activeGlossId);
+                                            for (let i = currentIndex + 1; i < compDict.glosses.length; i++) {
+                                                const gList = compDict.glosses[i];
+                                                const jSet = activeComparison.judgments[gList.id] || {};
+                                                let isDone = true;
+                                                for (let v of compSurvey.varieties) {
+                                                    if (!jSet[v.id]?.excluded && !jSet[v.id]?.groupingChar?.trim()) {
+                                                        isDone = false; break;
+                                                    }
+                                                }
+                                                if (!isDone) {
+                                                    setActiveGlossId(gList.id);
+                                                    setMagnifiedText('');
+                                                    break;
+                                                }
+                                            }
+                                        }}
+                                        className="flex items-center gap-1.5 bg-white hover:bg-slate-50 text-slate-700 px-3 py-1.5 rounded text-xs font-semibold border border-slate-200 shadow-2xs transition-colors cursor-pointer"
+                                    >
+                                        Next Ungrouped
+                                    </button>
+                                </div>
+
                                 {/* Magnifier & Guidance */}
                                 <div className="bg-slate-800 text-white min-h-[6rem] flex flex-col justify-center items-center shadow-inner z-10 relative">
                                     <div className="absolute top-2 left-4 text-xs text-slate-400 bg-slate-900/50 px-2 py-1 rounded">
@@ -1282,6 +1380,7 @@ export default function App() {
                                         <span><kbd className="bg-slate-700 px-1 rounded">Ctrl+Enter</kbd> Next Gloss</span>
                                         <span><kbd className="bg-slate-700 px-1 rounded">Ctrl+G</kbd> Next Ungrouped</span>
                                         <span><kbd className="bg-slate-700 px-1 rounded">Ctrl+E</kbd> Exclude All</span>
+                                        <span><kbd className="bg-slate-700 px-1 rounded">Ctrl+S</kbd> Auto-Suggest</span>
                                     </div>
                                     <span className={`font-mono text-4xl mt-3 tracking-wide ${!magnifiedText ? 'opacity-30 italic text-2xl' : ''}`}>
                                         {magnifiedText || 'Select transcription or grouping to magnify'}
@@ -1320,6 +1419,42 @@ export default function App() {
                                         else if (e.ctrlKey && e.key === 'e') {
                                             e.preventDefault();
                                             compSurvey.varieties.forEach(v => updateJudgment(activeGlossId, v.id, 'excluded', true));
+                                        }
+                                        else if (e.ctrlKey && e.key === 's') {
+                                            e.preventDefault();
+                                            // Suggest trigger helper inline
+                                            if (!activeComparison || !compSurvey || !activeGlossId) return;
+                                            const activeJudgments = activeComparison.judgments[activeGlossId] || {};
+                                            const indexedVarieties = [];
+                                            const forms = [];
+                                            compSurvey.varieties.forEach(v => {
+                                                const j = activeJudgments[v.id] || {};
+                                                if (j.excluded) return;
+                                                const trans = (v.transcriptions[activeGlossId]?.transcription || '').trim();
+                                                if (!trans) return;
+                                                indexedVarieties.push(v.id);
+                                                forms.push(trans);
+                                            });
+                                            if (forms.length === 0) return;
+                                            const suggestedLabels = suggestGroupings(forms, activeComparison.type);
+                                            setComparisons(prev => prev.map(c => {
+                                                if (c.id !== activeComparisonId) return c;
+                                                const currentGlossJudgments = { ...(c.judgments[activeGlossId] || {}) };
+                                                indexedVarieties.forEach((vId, idx) => {
+                                                    const currentVarietyJudgment = currentGlossJudgments[vId] || { groupingChar: '', aligned: '', excluded: false, notes: '' };
+                                                    currentGlossJudgments[vId] = {
+                                                        ...currentVarietyJudgment,
+                                                        groupingChar: suggestedLabels[idx]
+                                                    };
+                                                });
+                                                return {
+                                                    ...c,
+                                                    judgments: {
+                                                        ...c.judgments,
+                                                        [activeGlossId]: currentGlossJudgments
+                                                    }
+                                                };
+                                            }));
                                         }
                                     }}
                                 >
@@ -1732,6 +1867,390 @@ export default function App() {
         );
     };
 
+    const renderPhylogenyTab = () => {
+        const activeComp = comparisons.find(c => c.id === selectedPhyloCompId) || comparisons[0];
+        if (!activeComp && comparisons.length > 0) setSelectedPhyloCompId(comparisons[0].id);
+
+        if (!activeComp) {
+            return (
+                <div className="m-auto text-slate-400 flex flex-col items-center p-8 text-center max-w-sm mt-20">
+                    <GitFork className="w-12 h-12 mb-4 opacity-30 text-slate-500" />
+                    <p className="text-slate-500 font-medium">No comparisons available</p>
+                    <p className="text-sm text-slate-400 mt-2">Create a comparison and judge varieties to view phylogeny.</p>
+                </div>
+            );
+        }
+
+        const survey = surveys.find(s => s.id === activeComp.surveyId);
+        const dict = glossDictionaries.find(d => d.id === survey?.dictionaryId);
+
+        if (!survey || !dict || survey.varieties.length < 2) {
+            return (
+                <div className="m-auto text-slate-400 flex flex-col items-center p-8 text-center max-w-md mt-20">
+                    <GitFork className="w-12 h-12 mb-4 opacity-30 text-slate-500" />
+                    <p className="text-slate-500 font-medium">Insufficient Data</p>
+                    <p className="text-sm text-slate-400 mt-2">The selected comparison requires a linked survey with at least two varieties to construct a tree.</p>
+                </div>
+            );
+        }
+
+        const hasJudgments = Object.keys(activeComp.judgments).length > 0;
+        if (!hasJudgments) {
+            return (
+                <div className="m-auto text-slate-400 flex flex-col items-center p-8 text-center max-w-md mt-20">
+                    <GitFork className="w-12 h-12 mb-4 opacity-30 text-slate-500" />
+                    <p className="text-slate-500 font-medium">No Judgments Entered</p>
+                    <p className="text-sm text-slate-400 mt-2">Enter grouping judgments in the Comparisons tab to calculate similarities and build a tree.</p>
+                </div>
+            );
+        }
+
+        const varieties = survey.varieties;
+        const size = varieties.length;
+        const matrix = Array.from({ length: size }, () => Array(size).fill(0));
+
+        for (let i = 0; i < size; i++) {
+            matrix[i][i] = 100;
+            for (let j = i + 1; j < size; j++) {
+                const varA = varieties[i];
+                const varB = varieties[j];
+                let total = 0;
+                let tally = 0;
+
+                dict.glosses.forEach(gloss => {
+                    const jA = activeComp.judgments[gloss.id]?.[varA.id];
+                    const jB = activeComp.judgments[gloss.id]?.[varB.id];
+
+                    const excludedA = jA?.excluded;
+                    const excludedB = jB?.excluded;
+
+                    const hasTranscriptionA = varA.transcriptions[gloss.id]?.transcription?.trim() !== '';
+                    const hasTranscriptionB = varB.transcriptions[gloss.id]?.transcription?.trim() !== '';
+
+                    if (!excludedA && !excludedB && (hasTranscriptionA || jA?.groupingChar) && (hasTranscriptionB || jB?.groupingChar)) {
+                        total++;
+                        const groupsA = (jA?.groupingChar || '').split(' ').filter(x => x);
+                        const groupsB = (jB?.groupingChar || '').split(' ').filter(x => x);
+                        if (groupsA.length > 0 && groupsB.length > 0 && groupsA.some(g => groupsB.includes(g))) {
+                            tally++;
+                        }
+                    }
+                });
+
+                const percent = total > 0 ? Math.round((tally / total) * 100) : 0;
+                matrix[i][j] = percent;
+                matrix[j][i] = percent;
+            }
+        }
+
+        const distances = getDistanceMatrix(matrix);
+        const names = varieties.map(v => v.abbreviation || v.name);
+
+        let root = null;
+        try {
+            if (phyloMethod === 'neighborJoining') {
+                root = buildNeighborJoining(distances, names);
+            } else {
+                root = buildUPGMA(distances, names);
+            }
+        } catch (e) {
+            console.error(e);
+        }
+
+        if (!root) {
+            return (
+                <div className="m-auto text-slate-400 flex flex-col items-center p-8 text-center max-w-sm mt-20">
+                    <GitFork className="w-12 h-12 mb-4 opacity-30 text-slate-500" />
+                    <p className="text-slate-500 font-medium">Calculation Error</p>
+                    <p className="text-sm text-slate-400 mt-2">Failed to construct phylogenetic tree from similarity matrix.</p>
+                </div>
+            );
+        }
+
+        const handleDownloadNewick = () => {
+            const nwk = writeNewick(root);
+            const blob = new Blob([nwk], { type: 'text/plain;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement("a");
+            link.setAttribute("href", url);
+            link.setAttribute("download", `tree_${activeComp.name.replace(/\s+/g, '_')}_${phyloMethod}.nwk`);
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+        };
+
+        const leafSpacing = 36;
+        const width = 500;
+        const leftPadding = 20;
+
+        const leaves = root.leaves;
+        const totalDepth = Math.max(0.001, root.depth);
+        const leafPositions = {};
+        
+        let currentY = leafSpacing;
+        for (const leaf of leaves) {
+            leafPositions[leaf.id] = currentY;
+            currentY += leafSpacing;
+        }
+
+        const lines = [];
+        const labels = [];
+
+        function place(node, parentX, accumulatedDepth) {
+            const nodeDepth = accumulatedDepth + node.branchLength;
+            const nodeX = leftPadding + width * (nodeDepth / totalDepth);
+
+            if (node.isLeaf) {
+                const y = leafPositions[node.id] || leafSpacing;
+                lines.push({ x1: parentX, y1: y, x2: nodeX, y2: y });
+                labels.push({ x: nodeX + 8, y: y + 4, text: node.name });
+                return y;
+            }
+
+            const childYs = node.children.map(child => place(child, nodeX, nodeDepth));
+            const minY = Math.min(...childYs);
+            const maxY = Math.max(...childYs);
+            const midY = (minY + maxY) / 2;
+
+            lines.push({ x1: nodeX, y1: minY, x2: nodeX, y2: maxY });
+
+            if (parentX < nodeX) {
+                lines.push({ x1: parentX, y1: midY, x2: nodeX, y2: midY });
+            }
+
+            return midY;
+        }
+
+        place(root, leftPadding, 0);
+
+        const svgWidth = width + leftPadding + 160;
+        const svgHeight = currentY + leafSpacing;
+
+        return (
+            <div className="flex flex-col h-full bg-slate-50">
+                <div className="bg-white border-b border-slate-200 p-4 shadow-sm flex justify-between items-center shrink-0 z-10">
+                    <div className="flex items-center gap-4">
+                        <select
+                            className="text-sm border border-slate-300 rounded px-3 py-2 bg-white font-medium text-slate-800 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            value={activeComp.id}
+                            onChange={e => setSelectedPhyloCompId(e.target.value)}
+                        >
+                            {comparisons.map(c => <option key={c.id} value={c.id}>{c.name} ({c.type})</option>)}
+                        </select>
+                        <span className="text-sm text-slate-500">{survey.name}</span>
+                    </div>
+
+                    <div className="flex items-center gap-4">
+                        <div className="flex bg-slate-100 p-1 rounded-lg border border-slate-200">
+                            <button
+                                onClick={() => setPhyloMethod('neighborJoining')}
+                                className={`px-4 py-1.5 text-xs font-semibold rounded-md transition-colors ${phyloMethod === 'neighborJoining' ? 'bg-white text-blue-700 shadow-sm' : 'text-slate-600 hover:text-slate-900'}`}
+                            >
+                                Neighbor-Joining
+                            </button>
+                            <button
+                                onClick={() => setPhyloMethod('upgma')}
+                                className={`px-4 py-1.5 text-xs font-semibold rounded-md transition-colors ${phyloMethod === 'upgma' ? 'bg-white text-blue-700 shadow-sm' : 'text-slate-600 hover:text-slate-900'}`}
+                            >
+                                UPGMA
+                            </button>
+                        </div>
+
+                        <button
+                            onClick={handleDownloadNewick}
+                            className="flex items-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-white px-4 py-2 rounded text-sm font-semibold transition-colors shadow-sm cursor-pointer"
+                        >
+                            <Download className="w-3.5 h-3.5" />
+                            Export Newick
+                        </button>
+                    </div>
+                </div>
+
+                <div className="flex-1 overflow-auto p-8 flex justify-center items-start bg-slate-50/50">
+                    <div className="bg-white p-10 rounded-xl shadow-md border border-slate-200 overflow-auto max-w-full">
+                        <svg width={svgWidth} height={svgHeight} className="max-w-full">
+                            {lines.map((l, i) => (
+                                <line
+                                    key={`l-${i}`}
+                                    x1={l.x1}
+                                    y1={l.y1}
+                                    x2={l.x2}
+                                    y2={l.y2}
+                                    stroke="#475569"
+                                    strokeWidth="2.5"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                />
+                            ))}
+                            {labels.map((lbl, i) => (
+                                <text
+                                    key={`lbl-${i}`}
+                                    x={lbl.x}
+                                    y={lbl.y}
+                                    className="text-xs font-mono font-bold fill-slate-700 select-none"
+                                >
+                                    {lbl.text}
+                                </text>
+                            ))}
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        );
+    };
+
+    const renderCorrespondencesTab = () => {
+        const activeComp = comparisons.find(c => c.id === selectedCorrespCompId) || comparisons[0];
+        if (!activeComp && comparisons.length > 0) setSelectedCorrespCompId(comparisons[0].id);
+
+        if (!activeComp) {
+            return (
+                <div className="m-auto text-slate-400 flex flex-col items-center p-8 text-center max-w-sm mt-20">
+                    <Music className="w-12 h-12 mb-4 opacity-30 text-slate-500" />
+                    <p className="text-slate-500 font-medium">No comparisons available</p>
+                    <p className="text-sm text-slate-400 mt-2">Create a comparison and judge varieties to mine correspondences.</p>
+                </div>
+            );
+        }
+
+        const survey = surveys.find(s => s.id === activeComp.surveyId);
+        const dict = glossDictionaries.find(d => d.id === survey?.dictionaryId);
+
+        if (!survey || !dict || survey.varieties.length < 2) {
+            return (
+                <div className="m-auto text-slate-400 flex flex-col items-center p-8 text-center max-w-md mt-20">
+                    <Music className="w-12 h-12 mb-4 opacity-30 text-slate-500" />
+                    <p className="text-slate-500 font-medium">Insufficient Data</p>
+                    <p className="text-sm text-slate-400 mt-2">The selected comparison requires a linked survey with at least two varieties.</p>
+                </div>
+            );
+        }
+
+        let correspondences = [];
+        try {
+            correspondences = detectCorrespondences(survey, dict, activeComp);
+        } catch (e) {
+            console.error(e);
+        }
+
+        const filtered = correspondences
+            .filter(r => !correspHideIdentities || r.pair.a !== r.pair.b)
+            .filter(r => r.count >= correspMinCount);
+
+        return (
+            <div className="flex flex-col h-full bg-slate-50">
+                <div className="bg-white border-b border-slate-200 p-4 shadow-sm flex flex-wrap gap-4 justify-between items-center shrink-0 z-10">
+                    <div className="flex items-center gap-4">
+                        <select
+                            className="text-sm border border-slate-300 rounded px-3 py-2 bg-white font-medium text-slate-800 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            value={activeComp.id}
+                            onChange={e => setSelectedCorrespCompId(e.target.value)}
+                        >
+                            {comparisons.map(c => <option key={c.id} value={c.id}>{c.name} ({c.type})</option>)}
+                        </select>
+                        <span className="text-sm text-slate-500">{survey.name}</span>
+                    </div>
+
+                    <div className="flex items-center gap-6">
+                        <label className="flex items-center gap-2 text-sm font-semibold text-slate-700 cursor-pointer">
+                            <input
+                                type="checkbox"
+                                className="w-4 h-4 rounded text-blue-600 focus:ring-blue-500 cursor-pointer"
+                                checked={correspHideIdentities}
+                                onChange={e => setCorrespHideIdentities(e.target.checked)}
+                            />
+                            Hide Identities (a:a)
+                        </label>
+
+                        <div className="flex items-center gap-2">
+                            <span className="text-sm font-semibold text-slate-700">Min occurrences:</span>
+                            <div className="flex items-center border border-slate-300 rounded bg-white shadow-sm overflow-hidden">
+                                <button
+                                    onClick={() => setCorrespMinCount(prev => Math.max(1, prev - 1))}
+                                    className="px-2.5 py-1.5 bg-slate-50 hover:bg-slate-100 font-bold border-r border-slate-300 text-slate-600 transition-colors cursor-pointer"
+                                >
+                                    -
+                                </button>
+                                <span className="px-4 font-mono font-bold text-slate-800">{correspMinCount}</span>
+                                <button
+                                    onClick={() => setCorrespMinCount(prev => prev + 1)}
+                                    className="px-2.5 py-1.5 bg-slate-50 hover:bg-slate-100 font-bold border-l border-slate-300 text-slate-600 transition-colors cursor-pointer"
+                                >
+                                    +
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="flex-1 overflow-auto p-8">
+                    {filtered.length === 0 ? (
+                        <div className="bg-white p-12 rounded-xl shadow-md border border-slate-200 text-center max-w-md mx-auto mt-12 flex flex-col items-center">
+                            <Music className="w-12 h-12 mb-4 opacity-30 text-slate-500" />
+                            <p className="text-slate-500 font-semibold">No Correspondences Found</p>
+                            <p className="text-sm text-slate-400 mt-2">Try lowering the minimum occurrence count or unchecking "Hide Identities".</p>
+                        </div>
+                    ) : (
+                        <div className="bg-white rounded-xl shadow-md border border-slate-200 overflow-hidden max-w-4xl mx-auto">
+                            <table className="w-full text-left border-collapse text-sm">
+                                <thead className="bg-slate-100 font-semibold text-slate-700 sticky top-0 border-b border-slate-200">
+                                    <tr>
+                                        <th className="py-3 px-6 w-1/4">Sound A</th>
+                                        <th className="py-3 px-6 w-1/4">Sound B</th>
+                                        <th className="py-3 px-6 w-1/5 text-center">Occurrences</th>
+                                        <th className="py-3 px-6">Diagnostic Examples</th>
+                                    </tr>
+                                </thead>
+                                <tbody className="divide-y divide-slate-200">
+                                    {filtered.map(r => {
+                                        const key = `${r.pair.a}|${r.pair.b}`;
+                                        const isExpanded = expandedCorrespKey === key;
+                                        return (
+                                            <React.Fragment key={key}>
+                                                <tr
+                                                    onClick={() => setExpandedCorrespKey(isExpanded ? null : key)}
+                                                    className="hover:bg-blue-50/20 transition-colors cursor-pointer"
+                                                >
+                                                    <td className="py-4 px-6 text-xl font-serif font-bold text-slate-800">{r.pair.a}</td>
+                                                    <td className="py-4 px-6 text-xl font-serif font-bold text-slate-800">{r.pair.b}</td>
+                                                    <td className="py-4 px-6 text-center font-mono font-bold text-blue-700">{r.count}</td>
+                                                    <td className="py-4 px-6 text-slate-600 truncate max-w-sm">
+                                                        {r.examples.slice(0, 6).join(", ")}
+                                                        {r.examples.length > 6 ? ", …" : ""}
+                                                    </td>
+                                                </tr>
+                                                {isExpanded && (
+                                                    <tr className="bg-slate-50/50">
+                                                        <td colSpan="4" className="py-4 px-8 border-t border-b border-slate-100">
+                                                            <div className="flex flex-col gap-2">
+                                                                <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Mined from {r.examples.length} Glosses:</span>
+                                                                <div className="flex flex-wrap gap-1.5 mt-1">
+                                                                    {r.examples.map((ex, exIdx) => (
+                                                                        <span
+                                                                            key={exIdx}
+                                                                            className="bg-white border border-slate-200 text-slate-700 rounded-full px-3 py-1 text-xs font-semibold shadow-xs"
+                                                                        >
+                                                                            {ex}
+                                                                        </span>
+                                                                    ))}
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                )}
+                                            </React.Fragment>
+                                        );
+                                    })}
+                                </tbody>
+                            </table>
+                        </div>
+                    )}
+                </div>
+            </div>
+        );
+    };
+
     const renderContent = () => {
         switch (activeTab) {
             case 'glosses': return renderGlossesTab();
@@ -1739,6 +2258,8 @@ export default function App() {
             case 'comparisons': return renderComparisonsTab();
             case 'analysis': return renderAnalysisTab();
             case 'results': return renderResultsTab();
+            case 'phylogeny': return renderPhylogenyTab();
+            case 'correspondences': return renderCorrespondencesTab();
             default: return null;
         }
     };
@@ -1854,7 +2375,7 @@ export default function App() {
                             // Technically Prompt asked "at least one survey with >= 2 varieties with transcriptions" for comparisons:
                             isEnabled = surveys.some(s => s.varieties.length >= 2 && s.varieties.some(v => Object.keys(v.transcriptions).length > 0));
                             disabledReason = "Requires a Survey with at least 2 varieties containing transcriptions.";
-                        } else if (tab.id === 'analysis' || tab.id === 'results') {
+                        } else if (tab.id === 'analysis' || tab.id === 'results' || tab.id === 'phylogeny' || tab.id === 'correspondences') {
                             isEnabled = comparisons.some(c => Object.keys(c.judgments).length > 0);
                             disabledReason = "Requires a Comparison with grouping judgments entered.";
                         }
