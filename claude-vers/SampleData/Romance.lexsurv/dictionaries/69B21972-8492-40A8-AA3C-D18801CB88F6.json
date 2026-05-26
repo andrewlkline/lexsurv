@@ -1,0 +1,699 @@
+{
+  "glosses" : [
+    {
+      "fieldTip" : "",
+      "id" : "6FEE74CE-EBFF-4D00-8CC0-B8F1013A048D",
+      "pos" : "",
+      "primary" : "fire",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "62EA257D-1D2B-42F1-8B47-480A197A8A1D",
+      "pos" : "",
+      "primary" : "water",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "5AEAC8E4-9512-4ED0-B6CC-D794939825F0",
+      "pos" : "",
+      "primary" : "run",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "BE8E0CC5-CEAD-4629-A195-024A683D1A52",
+      "pos" : "",
+      "primary" : "eye",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "E70C054E-73F6-4560-B3D0-B8E03677A8B0",
+      "pos" : "",
+      "primary" : "bitter",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "A7768205-A7B4-4CDC-8CD8-B9A8F1985E0D",
+      "pos" : "",
+      "primary" : "leg\/foot",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "5AEBB462-B4A9-476A-8170-A3F28D040744",
+      "pos" : "",
+      "primary" : "blood",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "A0D29367-52A0-41D9-B3E7-0D20CD6E1E10",
+      "pos" : "",
+      "primary" : "bone",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "DA11C270-E239-4D24-A4C5-F90470B177C3",
+      "pos" : "",
+      "primary" : "name",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "DEF75768-3C73-49D9-9C66-BE9977A7F3A4",
+      "pos" : "",
+      "primary" : "dog",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "269DF2F9-E160-44AD-83CC-A9E90ED80D46",
+      "pos" : "",
+      "primary" : "tooth",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "F52A1CB2-F869-4C88-A9D7-E17E905D5FB1",
+      "pos" : "",
+      "primary" : "hear",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "8045BD33-BAF9-45AA-91E5-0FBE3A9EA858",
+      "pos" : "",
+      "primary" : "you (sg.)",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "0200BBF1-3287-4019-A65E-5160B0D10816",
+      "pos" : "",
+      "primary" : "knee",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "02B8273E-0747-4A0B-B270-364C086DBAA0",
+      "pos" : "",
+      "primary" : "leaf",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "14608AE6-557A-488A-95E8-F89EA9F55D6A",
+      "pos" : "",
+      "primary" : "know",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "3F7B1099-2EB8-4C40-8A11-DF61820FE45C",
+      "pos" : "",
+      "primary" : "meat\/flesh",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "D6FB6E39-5FBC-4BD0-AA46-A76A7D488F81",
+      "pos" : "",
+      "primary" : "come",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "F3AE3A37-BDDB-4CF1-A429-F0570A946373",
+      "pos" : "",
+      "primary" : "louse",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "7780F4DB-237A-4A1A-A58E-5753CDDAD4EC",
+      "pos" : "",
+      "primary" : "hair",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "6ACBEF4C-01AD-4A45-B094-EA08ED69584F",
+      "pos" : "",
+      "primary" : "liver",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "46388F0C-4AC5-44AE-A1C8-B7D5859CEBC3",
+      "pos" : "",
+      "primary" : "breast",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "C4C02FA4-F531-4B0B-9A55-791D6C586EDA",
+      "pos" : "",
+      "primary" : "sun",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "138A0758-3349-42F7-85FD-B0F43E7ABF28",
+      "pos" : "",
+      "primary" : "night",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "F85170D2-DCFC-4B38-99BB-01F7A04C1604",
+      "pos" : "",
+      "primary" : "eat",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "F6B5266B-65FF-48A6-8FEE-B2243882C43E",
+      "pos" : "",
+      "primary" : "moon",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "52B0A481-D001-47A5-8340-98970406F00D",
+      "pos" : "",
+      "primary" : "go",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "2F175543-6263-4E2C-83EB-632907E49C58",
+      "pos" : "",
+      "primary" : "thigh",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "3AC73A3A-040A-4ABC-B25B-661379779901",
+      "pos" : "",
+      "primary" : "stone",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "292A77BB-6C0D-4493-A7E8-CC49A55F7923",
+      "pos" : "",
+      "primary" : "tongue",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "5DBE9BB5-4A93-461B-889F-166A9F8F8DD4",
+      "pos" : "",
+      "primary" : "I",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "E31F96C6-95AC-42A2-860D-A68B31D8D958",
+      "pos" : "",
+      "primary" : "ash",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "CE5FA966-D9BA-41B4-B98A-8ED138EE5CA3",
+      "pos" : "",
+      "primary" : "he\/she\/it",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "9EDD5DFA-AB25-4843-B5ED-C52D821F0E91",
+      "pos" : "",
+      "primary" : "drink",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "20D9978A-8EE8-47A4-B05D-39B2A3DBB020",
+      "pos" : "",
+      "primary" : "laugh",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "551AD3EB-314B-438F-82B8-D08787F4C5C0",
+      "pos" : "",
+      "primary" : "path\/road",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "23110255-88D6-4154-9366-F3B82C0AE00A",
+      "pos" : "",
+      "primary" : "sand",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "2AA115A0-D795-4384-8D6E-58DC7CC23E8F",
+      "pos" : "",
+      "primary" : "bite",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "4BED9561-5909-4750-8DE2-CCB1D8D63B28",
+      "pos" : "",
+      "primary" : "wing",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "E65A1EF2-1A21-4F9D-A06A-658D113C5AEA",
+      "pos" : "",
+      "primary" : "fly",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "438B18A5-9268-4662-AF99-BDFBC7B41D3B",
+      "pos" : "",
+      "primary" : "star",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "13DD3F17-7247-46EB-AE1E-C606C1DFF4A2",
+      "pos" : "",
+      "primary" : "egg",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "11FDDF6B-77D9-47A7-99B9-F0B2532AAF0D",
+      "pos" : "",
+      "primary" : "hide",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "1E1F4147-1F47-4CDB-915B-5456785AEAB7",
+      "pos" : "",
+      "primary" : "tail",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "1917263E-0FF6-4799-B0A8-5C620249F435",
+      "pos" : "",
+      "primary" : "earth\/soil",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "3D5FC0EB-73BE-457D-96D8-228ECBEEDC5C",
+      "pos" : "",
+      "primary" : "navel",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "E04B818E-698F-4DFE-B00D-D9B7F7563701",
+      "pos" : "",
+      "primary" : "root",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "ACF31086-91AA-4F0F-B2A3-A72A05DFC557",
+      "pos" : "",
+      "primary" : "fish",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "3E4B02FA-8306-47A5-8460-DE89DBB4290A",
+      "pos" : "",
+      "primary" : "see",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "A8B16680-32E1-4937-87CE-D13621FED6EF",
+      "pos" : "",
+      "primary" : "tree",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "A940369B-EBD1-4D8E-A9B8-C9A2EE5AC74A",
+      "pos" : "",
+      "primary" : "hand",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "FB7D1567-C63F-4EAB-825D-3C6030BD0C17",
+      "pos" : "",
+      "primary" : "neck",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "98E050E7-E56F-4497-87D6-6F79F4D39C91",
+      "pos" : "",
+      "primary" : "wind",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "B4D627BD-D637-445C-9DD8-48C7C218702C",
+      "pos" : "",
+      "primary" : "child",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "ABCD8372-302D-4787-B22F-9DA6AC94F1E8",
+      "pos" : "",
+      "primary" : "skin",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "AE20C5C8-85B0-4D27-BAEA-A60FAFB0DCE3",
+      "pos" : "",
+      "primary" : "stand",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "77BD1AF5-2720-46AE-9EB6-798729A8D6D9",
+      "pos" : "",
+      "primary" : "we (excl)",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "0D1A5CDC-3712-40A3-9C8B-05BF83E03F4F",
+      "pos" : "",
+      "primary" : "give",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "4C4EBCDA-DE02-4067-9014-F44ABF4E023D",
+      "pos" : "",
+      "primary" : "house",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "073C5FED-6FA9-4737-9227-9C4D8ABF31F3",
+      "pos" : "",
+      "primary" : "who",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "C9D73B59-73F3-42DB-A54E-B6B0F007C8B6",
+      "pos" : "",
+      "primary" : "smoke",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "43CC3B6B-F697-4EEE-8293-9EBC1208A837",
+      "pos" : "",
+      "primary" : "ant",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "54FB1F9F-E7E7-4E17-9B10-06930FB549DB",
+      "pos" : "",
+      "primary" : "mouth",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "5416EBC7-6360-4AA9-BF06-F22E2AEFB8EC",
+      "pos" : "",
+      "primary" : "take",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "8F727293-7FA8-4FC6-AE8C-062152EEC8D1",
+      "pos" : "",
+      "primary" : "tear",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "2358FCD6-2858-40B7-8BEB-3AFE0F791044",
+      "pos" : "",
+      "primary" : "burn",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "7C2B1C34-7E0F-4B34-9337-81E4EC436FC2",
+      "pos" : "",
+      "primary" : "wood",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "28F825B8-606C-41A0-8554-87A8F0FF93E0",
+      "pos" : "",
+      "primary" : "spit",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "6E08B9E3-CD37-4BE0-8110-83D267C33E1C",
+      "pos" : "",
+      "primary" : "tie",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "DE73A75F-B4F3-4840-96A7-AF53A3533157",
+      "pos" : "",
+      "primary" : "salt",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "5F1FD110-4297-4C23-A12C-0197FCB24524",
+      "pos" : "",
+      "primary" : "rain",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "8B6BB2B9-1560-48A4-BDFC-2A91CEA20C9B",
+      "pos" : "",
+      "primary" : "yesterday",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "720DC56D-5DDD-45EB-898C-38F11910A986",
+      "pos" : "",
+      "primary" : "die",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "EDAA711A-86A2-4DF4-A8C0-3AE9D56CCF69",
+      "pos" : "",
+      "primary" : "two",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "3C48640F-D41F-4047-916A-534C84E43027",
+      "pos" : "",
+      "primary" : "blow",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "E356F4CC-2819-47AE-A07F-F019AEA925AD",
+      "pos" : "",
+      "primary" : "kill",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "8A21430C-2CFD-412D-8105-7783353981E5",
+      "pos" : "",
+      "primary" : "one",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "8DD62FEF-037F-4A06-B298-B06E158DC259",
+      "pos" : "",
+      "primary" : "what",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "F6120C39-6FAD-4C46-BFDF-9458A993EA33",
+      "pos" : "",
+      "primary" : "weep\/cry",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "B8482D16-CBAE-462B-B047-2D3EFCA5CDFD",
+      "pos" : "",
+      "primary" : "this",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "6FA41990-07A7-43D9-AE56-D1A42E745786",
+      "pos" : "",
+      "primary" : "not",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "2E7BB620-27C7-4611-BCE4-262E1763D920",
+      "pos" : "",
+      "primary" : "say",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "2551D258-BCF2-499D-A7D4-6D349DE236B0",
+      "pos" : "",
+      "primary" : "where",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "E5E90CCF-9E69-4A53-9DDB-C82861726F67",
+      "pos" : "",
+      "primary" : "big",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "9FA84DB4-FE7A-4157-AC83-A84ECA55F314",
+      "pos" : "",
+      "primary" : "bird",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "49140774-9F53-4492-A3F5-01A2E3712732",
+      "pos" : "",
+      "primary" : "do\/make",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "A8242FD5-1F48-40CE-9EA3-57CEDD6B4278",
+      "pos" : "",
+      "primary" : "person\/human",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "8A0380B8-DE4E-466D-A7A0-63FA0BE95402",
+      "pos" : "",
+      "primary" : "good",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "3EB42CF1-9B60-49E7-9F9A-5E8AC47EDA76",
+      "pos" : "",
+      "primary" : "long",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "230293C2-973B-4E9E-B4A8-AC5205F45654",
+      "pos" : "",
+      "primary" : "new",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "8347BF0C-33AE-4100-AD89-3602FE49F307",
+      "pos" : "",
+      "primary" : "black",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "1C8BF1BC-CBD9-4FEE-A188-AC100393BA1D",
+      "pos" : "",
+      "primary" : "head",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "84B59EB8-2817-4366-9F63-DF3CCA19F0C0",
+      "pos" : "",
+      "primary" : "heavy",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "DC05ED60-4B93-4446-9299-E775F46BF14E",
+      "pos" : "",
+      "primary" : "shadow",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "E35D0CE1-BD3E-44B8-9ED6-14A424412263",
+      "pos" : "",
+      "primary" : "all",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "20102C89-69A9-4432-A5A3-A5EF763134B0",
+      "pos" : "",
+      "primary" : "old",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "3E0AC70A-AD33-4B41-85E0-ED2647B7C058",
+      "pos" : "",
+      "primary" : "white",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "19F0A950-CFDD-4DDD-89A4-363A65B96179",
+      "pos" : "",
+      "primary" : "carry",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "57EF25B0-BDC7-4066-9D95-4458DE309273",
+      "pos" : "",
+      "primary" : "we (incl)",
+      "secondary" : ""
+    }
+  ],
+  "id" : "69B21972-8492-40A8-AA3C-D18801CB88F6",
+  "name" : "LeipzigJakarta"
+}

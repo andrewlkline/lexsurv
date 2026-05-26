@@ -1,0 +1,1258 @@
+{
+  "area" : "Europe",
+  "compiler" : "LexSurv sample",
+  "consultant" : "",
+  "dictionaryID" : "11111111-1111-1111-1111-111111111111",
+  "fullTitle" : "Romance basic-vocabulary survey",
+  "id" : "22222222-2222-2222-2222-222222222222",
+  "location" : "",
+  "name" : "Romance languages",
+  "notes" : "Sample dataset bundled with LexSurv. Transcriptions are simplified IPA.",
+  "varieties" : [
+    {
+      "abbreviation" : "ITA",
+      "alternateName" : "",
+      "id" : "00000002-0000-0000-0000-000000000001",
+      "isoCode" : "ita",
+      "name" : "Italian",
+      "transcriptions" : {
+        "00000001-0000-0000-0000-000000000001" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "akkwa"
+        },
+        "00000001-0000-0000-0000-000000000002" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "fwɔko"
+        },
+        "00000001-0000-0000-0000-000000000003" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "sole"
+        },
+        "00000001-0000-0000-0000-000000000004" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "luna"
+        },
+        "00000001-0000-0000-0000-000000000005" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "stella"
+        },
+        "00000001-0000-0000-0000-000000000006" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "testa"
+        },
+        "00000001-0000-0000-0000-000000000007" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ɔkkjo"
+        },
+        "00000001-0000-0000-0000-000000000008" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "orɛkkjo"
+        },
+        "00000001-0000-0000-0000-000000000009" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nazo"
+        },
+        "00000001-0000-0000-0000-00000000000A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "bokka"
+        },
+        "00000001-0000-0000-0000-00000000000B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dente"
+        },
+        "00000001-0000-0000-0000-00000000000C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "liŋɡwa"
+        },
+        "00000001-0000-0000-0000-00000000000D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mano"
+        },
+        "00000001-0000-0000-0000-00000000000E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pjɛde"
+        },
+        "00000001-0000-0000-0000-00000000000F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kwɔre"
+        },
+        "00000001-0000-0000-0000-000000000010" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "saŋɡwe"
+        },
+        "00000001-0000-0000-0000-000000000011" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ɔsso"
+        },
+        "00000001-0000-0000-0000-000000000012" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pɛlle"
+        },
+        "00000001-0000-0000-0000-000000000013" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kane"
+        },
+        "00000001-0000-0000-0000-000000000014" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "utʃɛllo"
+        },
+        "00000001-0000-0000-0000-000000000015" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "peʃe"
+        },
+        "00000001-0000-0000-0000-000000000016" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "albero"
+        },
+        "00000001-0000-0000-0000-000000000017" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pjɛtra"
+        },
+        "00000001-0000-0000-0000-000000000018" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nɔtte"
+        },
+        "00000001-0000-0000-0000-000000000019" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pjɔʤa"
+        },
+        "00000001-0000-0000-0000-00000000001A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "bwɔno"
+        },
+        "00000001-0000-0000-0000-00000000001B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nwɔvo"
+        },
+        "00000001-0000-0000-0000-00000000001C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "uno"
+        },
+        "00000001-0000-0000-0000-00000000001D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "due"
+        },
+        "00000001-0000-0000-0000-00000000001E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tre"
+        }
+      }
+    },
+    {
+      "abbreviation" : "SPA",
+      "alternateName" : "",
+      "id" : "00000002-0000-0000-0000-000000000002",
+      "isoCode" : "spa",
+      "name" : "Spanish",
+      "transcriptions" : {
+        "00000001-0000-0000-0000-000000000001" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "aɡwa"
+        },
+        "00000001-0000-0000-0000-000000000002" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "fweɡo"
+        },
+        "00000001-0000-0000-0000-000000000003" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "sol"
+        },
+        "00000001-0000-0000-0000-000000000004" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "luna"
+        },
+        "00000001-0000-0000-0000-000000000005" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "estreʎa"
+        },
+        "00000001-0000-0000-0000-000000000006" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kaβesa"
+        },
+        "00000001-0000-0000-0000-000000000007" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "oxo"
+        },
+        "00000001-0000-0000-0000-000000000008" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "oreha"
+        },
+        "00000001-0000-0000-0000-000000000009" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "naɾiθ"
+        },
+        "00000001-0000-0000-0000-00000000000A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "boka"
+        },
+        "00000001-0000-0000-0000-00000000000B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "djente"
+        },
+        "00000001-0000-0000-0000-00000000000C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "leŋɡwa"
+        },
+        "00000001-0000-0000-0000-00000000000D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mano"
+        },
+        "00000001-0000-0000-0000-00000000000E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pje"
+        },
+        "00000001-0000-0000-0000-00000000000F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "koɾaθon"
+        },
+        "00000001-0000-0000-0000-000000000010" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "saŋɡre"
+        },
+        "00000001-0000-0000-0000-000000000011" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "weso"
+        },
+        "00000001-0000-0000-0000-000000000012" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pjel"
+        },
+        "00000001-0000-0000-0000-000000000013" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pero"
+        },
+        "00000001-0000-0000-0000-000000000014" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "paxaro"
+        },
+        "00000001-0000-0000-0000-000000000015" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "peθ"
+        },
+        "00000001-0000-0000-0000-000000000016" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "aɾβol"
+        },
+        "00000001-0000-0000-0000-000000000017" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pjedra"
+        },
+        "00000001-0000-0000-0000-000000000018" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "notʃe"
+        },
+        "00000001-0000-0000-0000-000000000019" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ʎuβja"
+        },
+        "00000001-0000-0000-0000-00000000001A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "bweno"
+        },
+        "00000001-0000-0000-0000-00000000001B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nweβo"
+        },
+        "00000001-0000-0000-0000-00000000001C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "uno"
+        },
+        "00000001-0000-0000-0000-00000000001D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dos"
+        },
+        "00000001-0000-0000-0000-00000000001E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tres"
+        }
+      }
+    },
+    {
+      "abbreviation" : "FRA",
+      "alternateName" : "",
+      "id" : "00000002-0000-0000-0000-000000000003",
+      "isoCode" : "fra",
+      "name" : "French",
+      "transcriptions" : {
+        "00000001-0000-0000-0000-000000000001" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "o"
+        },
+        "00000001-0000-0000-0000-000000000002" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "fø"
+        },
+        "00000001-0000-0000-0000-000000000003" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "sɔlɛj"
+        },
+        "00000001-0000-0000-0000-000000000004" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lyn"
+        },
+        "00000001-0000-0000-0000-000000000005" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "etwal"
+        },
+        "00000001-0000-0000-0000-000000000006" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tɛt"
+        },
+        "00000001-0000-0000-0000-000000000007" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "œj"
+        },
+        "00000001-0000-0000-0000-000000000008" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "oʁɛj"
+        },
+        "00000001-0000-0000-0000-000000000009" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ne"
+        },
+        "00000001-0000-0000-0000-00000000000A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "buʃ"
+        },
+        "00000001-0000-0000-0000-00000000000B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dɑ̃"
+        },
+        "00000001-0000-0000-0000-00000000000C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lɑ̃ɡ"
+        },
+        "00000001-0000-0000-0000-00000000000D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mɛ̃"
+        },
+        "00000001-0000-0000-0000-00000000000E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pje"
+        },
+        "00000001-0000-0000-0000-00000000000F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kœʁ"
+        },
+        "00000001-0000-0000-0000-000000000010" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "sɑ̃"
+        },
+        "00000001-0000-0000-0000-000000000011" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ɔs"
+        },
+        "00000001-0000-0000-0000-000000000012" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "po"
+        },
+        "00000001-0000-0000-0000-000000000013" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ʃjɛ̃"
+        },
+        "00000001-0000-0000-0000-000000000014" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "wazo"
+        },
+        "00000001-0000-0000-0000-000000000015" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pwasɔ̃"
+        },
+        "00000001-0000-0000-0000-000000000016" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "aʁbʁ"
+        },
+        "00000001-0000-0000-0000-000000000017" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pjɛʁ"
+        },
+        "00000001-0000-0000-0000-000000000018" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nɥi"
+        },
+        "00000001-0000-0000-0000-000000000019" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "plɥi"
+        },
+        "00000001-0000-0000-0000-00000000001A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "bɔ̃"
+        },
+        "00000001-0000-0000-0000-00000000001B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nuvo"
+        },
+        "00000001-0000-0000-0000-00000000001C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "œ̃"
+        },
+        "00000001-0000-0000-0000-00000000001D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dø"
+        },
+        "00000001-0000-0000-0000-00000000001E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tʁwa"
+        }
+      }
+    },
+    {
+      "abbreviation" : "POR",
+      "alternateName" : "",
+      "id" : "00000002-0000-0000-0000-000000000004",
+      "isoCode" : "por",
+      "name" : "Portuguese",
+      "transcriptions" : {
+        "00000001-0000-0000-0000-000000000001" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "aɡwɐ"
+        },
+        "00000001-0000-0000-0000-000000000002" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "foɡu"
+        },
+        "00000001-0000-0000-0000-000000000003" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "sɔl"
+        },
+        "00000001-0000-0000-0000-000000000004" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "luɐ"
+        },
+        "00000001-0000-0000-0000-000000000005" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "iʃtrelɐ"
+        },
+        "00000001-0000-0000-0000-000000000006" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kɐβesɐ"
+        },
+        "00000001-0000-0000-0000-000000000007" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "oʎu"
+        },
+        "00000001-0000-0000-0000-000000000008" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "oɾeɐ"
+        },
+        "00000001-0000-0000-0000-000000000009" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nɐɾis"
+        },
+        "00000001-0000-0000-0000-00000000000A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "bokɐ"
+        },
+        "00000001-0000-0000-0000-00000000000B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dẽtʃi"
+        },
+        "00000001-0000-0000-0000-00000000000C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lĩɡwɐ"
+        },
+        "00000001-0000-0000-0000-00000000000D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mɐ̃w"
+        },
+        "00000001-0000-0000-0000-00000000000E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pɛ"
+        },
+        "00000001-0000-0000-0000-00000000000F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "koɾɐsɐ̃w"
+        },
+        "00000001-0000-0000-0000-000000000010" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "sɐ̃ɡi"
+        },
+        "00000001-0000-0000-0000-000000000011" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ɔsu"
+        },
+        "00000001-0000-0000-0000-000000000012" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pelɨ"
+        },
+        "00000001-0000-0000-0000-000000000013" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kɐ̃w"
+        },
+        "00000001-0000-0000-0000-000000000014" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pasɐɾu"
+        },
+        "00000001-0000-0000-0000-000000000015" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pejʃɨ"
+        },
+        "00000001-0000-0000-0000-000000000016" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "aɾvuɾɨ"
+        },
+        "00000001-0000-0000-0000-000000000017" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pɛdɾɐ"
+        },
+        "00000001-0000-0000-0000-000000000018" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nojtʃi"
+        },
+        "00000001-0000-0000-0000-000000000019" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ʃuvɐ"
+        },
+        "00000001-0000-0000-0000-00000000001A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "bõ"
+        },
+        "00000001-0000-0000-0000-00000000001B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "novu"
+        },
+        "00000001-0000-0000-0000-00000000001C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ũ"
+        },
+        "00000001-0000-0000-0000-00000000001D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dojʃ"
+        },
+        "00000001-0000-0000-0000-00000000001E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "trejʃ"
+        }
+      }
+    },
+    {
+      "abbreviation" : "RON",
+      "alternateName" : "",
+      "id" : "00000002-0000-0000-0000-000000000005",
+      "isoCode" : "ron",
+      "name" : "Romanian",
+      "transcriptions" : {
+        "00000001-0000-0000-0000-000000000001" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "apə"
+        },
+        "00000001-0000-0000-0000-000000000002" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "fok"
+        },
+        "00000001-0000-0000-0000-000000000003" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "soare"
+        },
+        "00000001-0000-0000-0000-000000000004" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lunə"
+        },
+        "00000001-0000-0000-0000-000000000005" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ste̯a"
+        },
+        "00000001-0000-0000-0000-000000000006" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kap"
+        },
+        "00000001-0000-0000-0000-000000000007" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "okʲ"
+        },
+        "00000001-0000-0000-0000-000000000008" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ureke"
+        },
+        "00000001-0000-0000-0000-000000000009" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nas"
+        },
+        "00000001-0000-0000-0000-00000000000A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "gurə"
+        },
+        "00000001-0000-0000-0000-00000000000B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dinte"
+        },
+        "00000001-0000-0000-0000-00000000000C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "limbə"
+        },
+        "00000001-0000-0000-0000-00000000000D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mɨnə"
+        },
+        "00000001-0000-0000-0000-00000000000E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pitʃor"
+        },
+        "00000001-0000-0000-0000-00000000000F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "inimə"
+        },
+        "00000001-0000-0000-0000-000000000010" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "sɨnʤe"
+        },
+        "00000001-0000-0000-0000-000000000011" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "os"
+        },
+        "00000001-0000-0000-0000-000000000012" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pjele"
+        },
+        "00000001-0000-0000-0000-000000000013" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kɨjne"
+        },
+        "00000001-0000-0000-0000-000000000014" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pasəre"
+        },
+        "00000001-0000-0000-0000-000000000015" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "peʃte"
+        },
+        "00000001-0000-0000-0000-000000000016" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "arbore"
+        },
+        "00000001-0000-0000-0000-000000000017" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pjatrə"
+        },
+        "00000001-0000-0000-0000-000000000018" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "noapte"
+        },
+        "00000001-0000-0000-0000-000000000019" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ploaje"
+        },
+        "00000001-0000-0000-0000-00000000001A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "bun"
+        },
+        "00000001-0000-0000-0000-00000000001B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nou"
+        },
+        "00000001-0000-0000-0000-00000000001C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "unu"
+        },
+        "00000001-0000-0000-0000-00000000001D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "doj"
+        },
+        "00000001-0000-0000-0000-00000000001E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "trej"
+        }
+      }
+    }
+  ]
+}

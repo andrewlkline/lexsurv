@@ -1,0 +1,52 @@
+{
+  "id" : "3C803426-7671-4265-B123-D5493BF1C270",
+  "judgments" : {
+    "6FEE74CE-EBFF-4D00-8CC0-B8F1013A048D" : {
+      "02B4E092-97CC-4B3F-8A45-272087735F3C" : {
+        "aligned" : "",
+        "excluded" : false,
+        "groupingCode" : "b",
+        "notes" : ""
+      },
+      "514CE374-85CF-4089-8C6F-236A841DF372" : {
+        "aligned" : "",
+        "excluded" : false,
+        "groupingCode" : "c",
+        "notes" : ""
+      },
+      "613E3E09-CD4E-4A95-BF98-007C631B3180" : {
+        "aligned" : "",
+        "excluded" : false,
+        "groupingCode" : "b",
+        "notes" : ""
+      },
+      "743C505B-1AE1-4B91-8B39-D550E8671A93" : {
+        "aligned" : "",
+        "excluded" : false,
+        "groupingCode" : "d",
+        "notes" : ""
+      },
+      "9B8BA586-685A-4BE5-9D21-B2C1D5FB41D7" : {
+        "aligned" : "",
+        "excluded" : false,
+        "groupingCode" : "e",
+        "notes" : ""
+      },
+      "9D8A50C0-16AF-41C2-8132-1D085AEEF2CA" : {
+        "aligned" : "",
+        "excluded" : false,
+        "groupingCode" : "c",
+        "notes" : ""
+      },
+      "EB5AAD09-3715-4D0B-AC8A-D72729E2AC29" : {
+        "aligned" : "",
+        "excluded" : false,
+        "groupingCode" : "a",
+        "notes" : ""
+      }
+    }
+  },
+  "name" : "Identical words",
+  "surveyID" : "078C36D4-14AD-4740-BD0F-EA2DBE8A5487",
+  "type" : "identical"
+}

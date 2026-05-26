@@ -1,0 +1,5244 @@
+{
+  "area" : "",
+  "compiler" : "",
+  "consultant" : "",
+  "dictionaryID" : "69B21972-8492-40A8-AA3C-D18801CB88F6",
+  "fullTitle" : "",
+  "id" : "078C36D4-14AD-4740-BD0F-EA2DBE8A5487",
+  "location" : "",
+  "name" : "Kawaimina",
+  "notes" : "",
+  "varieties" : [
+    {
+      "abbreviation" : "krd",
+      "alternateName" : "",
+      "id" : "EB5AAD09-3715-4D0B-AC8A-D72729E2AC29",
+      "isoCode" : "krd",
+      "name" : "Kairui-Midiki",
+      "transcriptions" : {
+        "0200BBF1-3287-4019-A65E-5160B0D10816" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kele tuheni"
+        },
+        "02B8273E-0747-4A0B-B270-364C086DBAA0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "raː"
+        },
+        "073C5FED-6FA9-4737-9227-9C4D8ABF31F3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "merehe"
+        },
+        "0D1A5CDC-3712-40A3-9C8B-05BF83E03F4F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ua"
+        },
+        "11FDDF6B-77D9-47A7-99B9-F0B2532AAF0D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "horo"
+        },
+        "138A0758-3349-42F7-85FD-B0F43E7ABF28" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kale"
+        },
+        "13DD3F17-7247-46EB-AE1E-C606C1DFF4A2" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tʰelu"
+        },
+        "14608AE6-557A-488A-95E8-F89EA9F55D6A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nelu"
+        },
+        "1917263E-0FF6-4799-B0A8-5C620249F435" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "raː"
+        },
+        "19F0A950-CFDD-4DDD-89A4-363A65B96179" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "adi"
+        },
+        "1C8BF1BC-CBD9-4FEE-A188-AC100393BA1D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "wuːloi"
+        },
+        "1E1F4147-1F47-4CDB-915B-5456785AEAB7" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "iku"
+        },
+        "20102C89-69A9-4432-A5A3-A5EF763134B0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "m̥ukin"
+        },
+        "20D9978A-8EE8-47A4-B05D-39B2A3DBB020" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "m̥ali"
+        },
+        "230293C2-973B-4E9E-B4A8-AC5205F45654" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mori"
+        },
+        "23110255-88D6-4154-9366-F3B82C0AE00A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hasa lˀae"
+        },
+        "2358FCD6-2858-40B7-8BEB-3AFE0F791044" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lˀaba"
+        },
+        "2551D258-BCF2-499D-A7D4-6D349DE236B0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "la meseː"
+        },
+        "269DF2F9-E160-44AD-83CC-A9E90ED80D46" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nihe"
+        },
+        "28F825B8-606C-41A0-8554-87A8F0FF93E0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "iluwai"
+        },
+        "292A77BB-6C0D-4493-A7E8-CC49A55F7923" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "maː"
+        },
+        "2AA115A0-D795-4384-8D6E-58DC7CC23E8F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hiki"
+        },
+        "2E7BB620-27C7-4611-BCE4-262E1763D920" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ehe"
+        },
+        "2F175543-6263-4E2C-83EB-632907E49C58" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "haʔa"
+        },
+        "3AC73A3A-040A-4ABC-B25B-661379779901" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "watu"
+        },
+        "3D5FC0EB-73BE-457D-96D8-228ECBEEDC5C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "huso"
+        },
+        "3E0AC70A-AD33-4B41-85E0-ED2647B7C058" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "buti"
+        },
+        "3E4B02FA-8306-47A5-8460-DE89DBB4290A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "soeʔe"
+        },
+        "3EB42CF1-9B60-49E7-9F9A-5E8AC47EDA76" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "naru"
+        },
+        "3F7B1099-2EB8-4C40-8A11-DF61820FE45C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "sisi"
+        },
+        "438B18A5-9268-4662-AF99-BDFBC7B41D3B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tala"
+        },
+        "43CC3B6B-F697-4EEE-8293-9EBC1208A837" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "saːmˀehe"
+        },
+        "46388F0C-4AC5-44AE-A1C8-B7D5859CEBC3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "susu"
+        },
+        "49140774-9F53-4492-A3F5-01A2E3712732" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "loː"
+        },
+        "4BED9561-5909-4750-8DE2-CCB1D8D63B28" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lie"
+        },
+        "4C4EBCDA-DE02-4067-9014-F44ABF4E023D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "umo"
+        },
+        "52B0A481-D001-47A5-8340-98970406F00D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "l̥aka"
+        },
+        "5416EBC7-6360-4AA9-BF06-F22E2AEFB8EC" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "adi"
+        },
+        "54FB1F9F-E7E7-4E17-9B10-06930FB549DB" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "noe"
+        },
+        "551AD3EB-314B-438F-82B8-D08787F4C5C0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "jala"
+        },
+        "57EF25B0-BDC7-4066-9D95-4458DE309273" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hire"
+        },
+        "5AEAC8E4-9512-4ED0-B6CC-D794939825F0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "uko"
+        },
+        "5AEBB462-B4A9-476A-8170-A3F28D040744" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "raː"
+        },
+        "5DBE9BB5-4A93-461B-889F-166A9F8F8DD4" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "aku"
+        },
+        "5F1FD110-4297-4C23-A12C-0197FCB24524" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "uo"
+        },
+        "62EA257D-1D2B-42F1-8B47-480A197A8A1D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "wai"
+        },
+        "6ACBEF4C-01AD-4A45-B094-EA08ED69584F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ate"
+        },
+        "6E08B9E3-CD37-4BE0-8110-83D267C33E1C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "siː"
+        },
+        "6FA41990-07A7-43D9-AE56-D1A42E745786" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "daʔi"
+        },
+        "6FEE74CE-EBFF-4D00-8CC0-B8F1013A048D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "jaha"
+        },
+        "720DC56D-5DDD-45EB-898C-38F11910A986" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "m̥ata"
+        },
+        "7780F4DB-237A-4A1A-A58E-5753CDDAD4EC" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "goː raː"
+        },
+        "77BD1AF5-2720-46AE-9EB6-798729A8D6D9" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kite"
+        },
+        "7C2B1C34-7E0F-4B34-9337-81E4EC436FC2" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kai"
+        },
+        "8045BD33-BAF9-45AA-91E5-0FBE3A9EA858" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ka"
+        },
+        "8347BF0C-33AE-4100-AD89-3602FE49F307" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ite"
+        },
+        "84B59EB8-2817-4366-9F63-DF3CCA19F0C0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tʰede"
+        },
+        "8A0380B8-DE4E-466D-A7A0-63FA0BE95402" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hie"
+        },
+        "8A21430C-2CFD-412D-8105-7783353981E5" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "seː"
+        },
+        "8B6BB2B9-1560-48A4-BDFC-2A91CEA20C9B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "emai"
+        },
+        "8DD62FEF-037F-4A06-B298-B06E158DC259" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "seʔi"
+        },
+        "8F727293-7FA8-4FC6-AE8C-062152EEC8D1" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "siʔe"
+        },
+        "98E050E7-E56F-4497-87D6-6F79F4D39C91" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "jani"
+        },
+        "9EDD5DFA-AB25-4843-B5ED-C52D821F0E91" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nuː"
+        },
+        "9FA84DB4-FE7A-4157-AC83-A84ECA55F314" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "manu"
+        },
+        "A0D29367-52A0-41D9-B3E7-0D20CD6E1E10" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rui"
+        },
+        "A7768205-A7B4-4CDC-8CD8-B9A8F1985E0D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kele"
+        },
+        "A8242FD5-1F48-40CE-9EA3-57CEDD6B4278" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kiː"
+        },
+        "A8B16680-32E1-4937-87CE-D13621FED6EF" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kai hoʔon"
+        },
+        "A940369B-EBD1-4D8E-A9B8-C9A2EE5AC74A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lime"
+        },
+        "ABCD8372-302D-4787-B22F-9DA6AC94F1E8" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kʰuli"
+        },
+        "ACF31086-91AA-4F0F-B2A3-A72A05DFC557" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ike"
+        },
+        "AE20C5C8-85B0-4D27-BAEA-A60FAFB0DCE3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "n̥iː"
+        },
+        "B4D627BD-D637-445C-9DD8-48C7C218702C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ana"
+        },
+        "B8482D16-CBAE-462B-B047-2D3EFCA5CDFD" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "sede"
+        },
+        "BE8E0CC5-CEAD-4629-A195-024A683D1A52" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mata"
+        },
+        "C4C02FA4-F531-4B0B-9A55-791D6C586EDA" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lˀara"
+        },
+        "C9D73B59-73F3-42DB-A54E-B6B0F007C8B6" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mˀasun"
+        },
+        "CE5FA966-D9BA-41B4-B98A-8ED138EE5CA3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "neː"
+        },
+        "D6FB6E39-5FBC-4BD0-AA46-A76A7D488F81" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "m̥aː"
+        },
+        "DA11C270-E239-4D24-A4C5-F90470B177C3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nai"
+        },
+        "DC05ED60-4B93-4446-9299-E775F46BF14E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rie"
+        },
+        "DE73A75F-B4F3-4840-96A7-AF53A3533157" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "asi"
+        },
+        "DEF75768-3C73-49D9-9C66-BE9977A7F3A4" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "jasu"
+        },
+        "E04B818E-698F-4DFE-B00D-D9B7F7563701" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kˀoka"
+        },
+        "E31F96C6-95AC-42A2-860D-A68B31D8D958" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "jaha boː"
+        },
+        "E356F4CC-2819-47AE-A07F-F019AEA925AD" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "woha"
+        },
+        "E35D0CE1-BD3E-44B8-9ED6-14A424412263" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "maʔa"
+        },
+        "E5E90CCF-9E69-4A53-9DDB-C82861726F67" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pˀare"
+        },
+        "E70C054E-73F6-4560-B3D0-B8E03677A8B0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "baʔi"
+        },
+        "EDAA711A-86A2-4DF4-A8C0-3AE9D56CCF69" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kai ruo"
+        },
+        "F3AE3A37-BDDB-4CF1-A429-F0570A946373" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kʰutu"
+        },
+        "F52A1CB2-F869-4C88-A9D7-E17E905D5FB1" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dine"
+        },
+        "F6120C39-6FAD-4C46-BFDF-9458A993EA33" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tani"
+        },
+        "F6B5266B-65FF-48A6-8FEE-B2243882C43E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "wulo"
+        },
+        "F85170D2-DCFC-4B38-99BB-01F7A04C1604" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kʰaː"
+        },
+        "FB7D1567-C63F-4EAB-825D-3C6030BD0C17" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "horokai"
+        }
+      }
+    },
+    {
+      "abbreviation" : "wmh",
+      "alternateName" : "",
+      "id" : "613E3E09-CD4E-4A95-BF98-007C631B3180",
+      "isoCode" : "wmh",
+      "name" : "Waima'a",
+      "transcriptions" : {
+        "0200BBF1-3287-4019-A65E-5160B0D10816" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tuːheni"
+        },
+        "02B8273E-0747-4A0B-B270-364C086DBAA0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rae"
+        },
+        "073C5FED-6FA9-4737-9227-9C4D8ABF31F3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "sie"
+        },
+        "0D1A5CDC-3712-40A3-9C8B-05BF83E03F4F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ie"
+        },
+        "11FDDF6B-77D9-47A7-99B9-F0B2532AAF0D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "oni"
+        },
+        "138A0758-3349-42F7-85FD-B0F43E7ABF28" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "degu"
+        },
+        "13DD3F17-7247-46EB-AE1E-C606C1DFF4A2" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tʰelu"
+        },
+        "14608AE6-557A-488A-95E8-F89EA9F55D6A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nau"
+        },
+        "1917263E-0FF6-4799-B0A8-5C620249F435" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ria"
+        },
+        "19F0A950-CFDD-4DDD-89A4-363A65B96179" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tulo"
+        },
+        "1C8BF1BC-CBD9-4FEE-A188-AC100393BA1D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "wuːloi"
+        },
+        "1E1F4147-1F47-4CDB-915B-5456785AEAB7" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "iku"
+        },
+        "20102C89-69A9-4432-A5A3-A5EF763134B0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ati"
+        },
+        "20D9978A-8EE8-47A4-B05D-39B2A3DBB020" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "reke"
+        },
+        "230293C2-973B-4E9E-B4A8-AC5205F45654" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "m̥ori"
+        },
+        "23110255-88D6-4154-9366-F3B82C0AE00A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hasa lˀae"
+        },
+        "2358FCD6-2858-40B7-8BEB-3AFE0F791044" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lˀaba, sunu"
+        },
+        "2551D258-BCF2-499D-A7D4-6D349DE236B0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "la eri"
+        },
+        "269DF2F9-E160-44AD-83CC-A9E90ED80D46" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nihi"
+        },
+        "28F825B8-606C-41A0-8554-87A8F0FF93E0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "iluwai"
+        },
+        "292A77BB-6C0D-4493-A7E8-CC49A55F7923" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "maː"
+        },
+        "2AA115A0-D795-4384-8D6E-58DC7CC23E8F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kʰiki"
+        },
+        "2E7BB620-27C7-4611-BCE4-262E1763D920" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ehe"
+        },
+        "2F175543-6263-4E2C-83EB-632907E49C58" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "haʔa"
+        },
+        "3AC73A3A-040A-4ABC-B25B-661379779901" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "watu"
+        },
+        "3C48640F-D41F-4047-916A-534C84E43027" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "n̥uː"
+        },
+        "3D5FC0EB-73BE-457D-96D8-228ECBEEDC5C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "huso"
+        },
+        "3E0AC70A-AD33-4B41-85E0-ED2647B7C058" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "buto"
+        },
+        "3E4B02FA-8306-47A5-8460-DE89DBB4290A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "buni"
+        },
+        "3EB42CF1-9B60-49E7-9F9A-5E8AC47EDA76" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "naru"
+        },
+        "3F7B1099-2EB8-4C40-8A11-DF61820FE45C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dotu"
+        },
+        "438B18A5-9268-4662-AF99-BDFBC7B41D3B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tala"
+        },
+        "43CC3B6B-F697-4EEE-8293-9EBC1208A837" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "saːmˀehe"
+        },
+        "46388F0C-4AC5-44AE-A1C8-B7D5859CEBC3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "susu"
+        },
+        "49140774-9F53-4492-A3F5-01A2E3712732" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "loː"
+        },
+        "4BED9561-5909-4750-8DE2-CCB1D8D63B28" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lie"
+        },
+        "4C4EBCDA-DE02-4067-9014-F44ABF4E023D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "umo"
+        },
+        "52B0A481-D001-47A5-8340-98970406F00D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "laka"
+        },
+        "5416EBC7-6360-4AA9-BF06-F22E2AEFB8EC" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ani"
+        },
+        "54FB1F9F-E7E7-4E17-9B10-06930FB549DB" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "wuwa"
+        },
+        "551AD3EB-314B-438F-82B8-D08787F4C5C0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dala"
+        },
+        "57EF25B0-BDC7-4066-9D95-4458DE309273" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hire"
+        },
+        "5AEAC8E4-9512-4ED0-B6CC-D794939825F0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "uko"
+        },
+        "5AEBB462-B4A9-476A-8170-A3F28D040744" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "raː"
+        },
+        "5DBE9BB5-4A93-461B-889F-166A9F8F8DD4" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "aku"
+        },
+        "5F1FD110-4297-4C23-A12C-0197FCB24524" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "udo"
+        },
+        "62EA257D-1D2B-42F1-8B47-480A197A8A1D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "wai"
+        },
+        "6ACBEF4C-01AD-4A45-B094-EA08ED69584F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ate"
+        },
+        "6E08B9E3-CD37-4BE0-8110-83D267C33E1C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "siː"
+        },
+        "6FA41990-07A7-43D9-AE56-D1A42E745786" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "da"
+        },
+        "6FEE74CE-EBFF-4D00-8CC0-B8F1013A048D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "daha"
+        },
+        "720DC56D-5DDD-45EB-898C-38F11910A986" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mata"
+        },
+        "7780F4DB-237A-4A1A-A58E-5753CDDAD4EC" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ulu"
+        },
+        "77BD1AF5-2720-46AE-9EB6-798729A8D6D9" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kite"
+        },
+        "7C2B1C34-7E0F-4B34-9337-81E4EC436FC2" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kai"
+        },
+        "8045BD33-BAF9-45AA-91E5-0FBE3A9EA858" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ka"
+        },
+        "8347BF0C-33AE-4100-AD89-3602FE49F307" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ite"
+        },
+        "84B59EB8-2817-4366-9F63-DF3CCA19F0C0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tʰede"
+        },
+        "8A0380B8-DE4E-466D-A7A0-63FA0BE95402" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hie"
+        },
+        "8A21430C-2CFD-412D-8105-7783353981E5" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "seː"
+        },
+        "8B6BB2B9-1560-48A4-BDFC-2A91CEA20C9B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "aisaʔi"
+        },
+        "8DD62FEF-037F-4A06-B298-B06E158DC259" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "seʔi"
+        },
+        "8F727293-7FA8-4FC6-AE8C-062152EEC8D1" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "siʔe"
+        },
+        "98E050E7-E56F-4497-87D6-6F79F4D39C91" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "iri"
+        },
+        "9EDD5DFA-AB25-4843-B5ED-C52D821F0E91" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nuː"
+        },
+        "9FA84DB4-FE7A-4157-AC83-A84ECA55F314" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "manu"
+        },
+        "A0D29367-52A0-41D9-B3E7-0D20CD6E1E10" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rui"
+        },
+        "A7768205-A7B4-4CDC-8CD8-B9A8F1985E0D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kele"
+        },
+        "A8242FD5-1F48-40CE-9EA3-57CEDD6B4278" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kiː"
+        },
+        "A8B16680-32E1-4937-87CE-D13621FED6EF" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kai hoʔon"
+        },
+        "A940369B-EBD1-4D8E-A9B8-C9A2EE5AC74A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lime"
+        },
+        "ABCD8372-302D-4787-B22F-9DA6AC94F1E8" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kʰuli"
+        },
+        "ACF31086-91AA-4F0F-B2A3-A72A05DFC557" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ike"
+        },
+        "AE20C5C8-85B0-4D27-BAEA-A60FAFB0DCE3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "n̥iː"
+        },
+        "B4D627BD-D637-445C-9DD8-48C7C218702C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ana"
+        },
+        "B8482D16-CBAE-462B-B047-2D3EFCA5CDFD" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "neʔi"
+        },
+        "BE8E0CC5-CEAD-4629-A195-024A683D1A52" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mata"
+        },
+        "C4C02FA4-F531-4B0B-9A55-791D6C586EDA" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lˀara"
+        },
+        "C9D73B59-73F3-42DB-A54E-B6B0F007C8B6" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nˀasun"
+        },
+        "CE5FA966-D9BA-41B4-B98A-8ED138EE5CA3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "neː"
+        },
+        "D6FB6E39-5FBC-4BD0-AA46-A76A7D488F81" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mai"
+        },
+        "DA11C270-E239-4D24-A4C5-F90470B177C3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nai"
+        },
+        "DC05ED60-4B93-4446-9299-E775F46BF14E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rie"
+        },
+        "DE73A75F-B4F3-4840-96A7-AF53A3533157" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "asi"
+        },
+        "DEF75768-3C73-49D9-9C66-BE9977A7F3A4" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dasu"
+        },
+        "E04B818E-698F-4DFE-B00D-D9B7F7563701" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kˀaka"
+        },
+        "E31F96C6-95AC-42A2-860D-A68B31D8D958" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "daha boː"
+        },
+        "E356F4CC-2819-47AE-A07F-F019AEA925AD" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hige"
+        },
+        "E35D0CE1-BD3E-44B8-9ED6-14A424412263" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "maʔa"
+        },
+        "E5E90CCF-9E69-4A53-9DDB-C82861726F67" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "pˀari"
+        },
+        "E65A1EF2-1A21-4F9D-A06A-658D113C5AEA" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "w̥aka"
+        },
+        "E70C054E-73F6-4560-B3D0-B8E03677A8B0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "baʔi"
+        },
+        "EDAA711A-86A2-4DF4-A8C0-3AE9D56CCF69" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kai ruo"
+        },
+        "F3AE3A37-BDDB-4CF1-A429-F0570A946373" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kʰutu"
+        },
+        "F52A1CB2-F869-4C88-A9D7-E17E905D5FB1" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dene"
+        },
+        "F6120C39-6FAD-4C46-BFDF-9458A993EA33" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tani"
+        },
+        "F6B5266B-65FF-48A6-8FEE-B2243882C43E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "wulo"
+        },
+        "F85170D2-DCFC-4B38-99BB-01F7A04C1604" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kʰaː"
+        },
+        "FB7D1567-C63F-4EAB-825D-3C6030BD0C17" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nˀeo"
+        }
+      }
+    },
+    {
+      "abbreviation" : "nxa",
+      "alternateName" : "",
+      "id" : "02B4E092-97CC-4B3F-8A45-272087735F3C",
+      "isoCode" : "nxa",
+      "name" : "Naueti",
+      "transcriptions" : {
+        "0200BBF1-3287-4019-A65E-5160B0D10816" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kele uko"
+        },
+        "02B8273E-0747-4A0B-B270-364C086DBAA0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rae"
+        },
+        "073C5FED-6FA9-4737-9227-9C4D8ABF31F3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "sia?"
+        },
+        "0D1A5CDC-3712-40A3-9C8B-05BF83E03F4F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ia"
+        },
+        "11FDDF6B-77D9-47A7-99B9-F0B2532AAF0D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "horo"
+        },
+        "138A0758-3349-42F7-85FD-B0F43E7ABF28" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "degu"
+        },
+        "13DD3F17-7247-46EB-AE1E-C606C1DFF4A2" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tʰelu"
+        },
+        "14608AE6-557A-488A-95E8-F89EA9F55D6A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tada osi"
+        },
+        "1917263E-0FF6-4799-B0A8-5C620249F435" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rea"
+        },
+        "19F0A950-CFDD-4DDD-89A4-363A65B96179" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rua"
+        },
+        "1C8BF1BC-CBD9-4FEE-A188-AC100393BA1D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ulu"
+        },
+        "1E1F4147-1F47-4CDB-915B-5456785AEAB7" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "iku"
+        },
+        "20102C89-69A9-4432-A5A3-A5EF763134B0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "taʔa"
+        },
+        "20D9978A-8EE8-47A4-B05D-39B2A3DBB020" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "reke"
+        },
+        "230293C2-973B-4E9E-B4A8-AC5205F45654" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mori"
+        },
+        "23110255-88D6-4154-9366-F3B82C0AE00A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "gasalae"
+        },
+        "2358FCD6-2858-40B7-8BEB-3AFE0F791044" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "laba"
+        },
+        "2551D258-BCF2-499D-A7D4-6D349DE236B0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "la ineri"
+        },
+        "269DF2F9-E160-44AD-83CC-A9E90ED80D46" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nihi"
+        },
+        "28F825B8-606C-41A0-8554-87A8F0FF93E0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "iluwai"
+        },
+        "292A77BB-6C0D-4493-A7E8-CC49A55F7923" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "maː"
+        },
+        "2AA115A0-D795-4384-8D6E-58DC7CC23E8F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hoka"
+        },
+        "2E7BB620-27C7-4611-BCE4-262E1763D920" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ehe"
+        },
+        "2F175543-6263-4E2C-83EB-632907E49C58" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "haʔa"
+        },
+        "3AC73A3A-040A-4ABC-B25B-661379779901" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "watu"
+        },
+        "3C48640F-D41F-4047-916A-534C84E43027" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "r̥uː"
+        },
+        "3D5FC0EB-73BE-457D-96D8-228ECBEEDC5C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "wusa"
+        },
+        "3E0AC70A-AD33-4B41-85E0-ED2647B7C058" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "buta"
+        },
+        "3E4B02FA-8306-47A5-8460-DE89DBB4290A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "buni"
+        },
+        "3EB42CF1-9B60-49E7-9F9A-5E8AC47EDA76" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nˀara"
+        },
+        "3F7B1099-2EB8-4C40-8A11-DF61820FE45C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dotu"
+        },
+        "438B18A5-9268-4662-AF99-BDFBC7B41D3B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tala"
+        },
+        "46388F0C-4AC5-44AE-A1C8-B7D5859CEBC3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "susu"
+        },
+        "49140774-9F53-4492-A3F5-01A2E3712732" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "loː"
+        },
+        "4BED9561-5909-4750-8DE2-CCB1D8D63B28" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lia"
+        },
+        "4C4EBCDA-DE02-4067-9014-F44ABF4E023D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "uma"
+        },
+        "52B0A481-D001-47A5-8340-98970406F00D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "laka"
+        },
+        "5416EBC7-6360-4AA9-BF06-F22E2AEFB8EC" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ala"
+        },
+        "54FB1F9F-E7E7-4E17-9B10-06930FB549DB" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nunukai"
+        },
+        "551AD3EB-314B-438F-82B8-D08787F4C5C0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tuka"
+        },
+        "57EF25B0-BDC7-4066-9D95-4458DE309273" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hira"
+        },
+        "5AEAC8E4-9512-4ED0-B6CC-D794939825F0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "uka"
+        },
+        "5AEBB462-B4A9-476A-8170-A3F28D040744" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "raː"
+        },
+        "5DBE9BB5-4A93-461B-889F-166A9F8F8DD4" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "aku"
+        },
+        "5F1FD110-4297-4C23-A12C-0197FCB24524" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "uda"
+        },
+        "62EA257D-1D2B-42F1-8B47-480A197A8A1D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "wai"
+        },
+        "6ACBEF4C-01AD-4A45-B094-EA08ED69584F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ata"
+        },
+        "6E08B9E3-CD37-4BE0-8110-83D267C33E1C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "siː"
+        },
+        "6FA41990-07A7-43D9-AE56-D1A42E745786" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "da"
+        },
+        "6FEE74CE-EBFF-4D00-8CC0-B8F1013A048D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "daha"
+        },
+        "720DC56D-5DDD-45EB-898C-38F11910A986" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mata"
+        },
+        "7780F4DB-237A-4A1A-A58E-5753CDDAD4EC" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ulu rae"
+        },
+        "77BD1AF5-2720-46AE-9EB6-798729A8D6D9" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kita"
+        },
+        "7C2B1C34-7E0F-4B34-9337-81E4EC436FC2" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kai"
+        },
+        "8045BD33-BAF9-45AA-91E5-0FBE3A9EA858" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ka"
+        },
+        "8347BF0C-33AE-4100-AD89-3602FE49F307" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ita"
+        },
+        "84B59EB8-2817-4366-9F63-DF3CCA19F0C0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tʰede"
+        },
+        "8A0380B8-DE4E-466D-A7A0-63FA0BE95402" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hia"
+        },
+        "8A21430C-2CFD-412D-8105-7783353981E5" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "seː"
+        },
+        "8B6BB2B9-1560-48A4-BDFC-2A91CEA20C9B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lˀai sei"
+        },
+        "8DD62FEF-037F-4A06-B298-B06E158DC259" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "seʔi"
+        },
+        "98E050E7-E56F-4497-87D6-6F79F4D39C91" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "iri"
+        },
+        "9EDD5DFA-AB25-4843-B5ED-C52D821F0E91" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nuː"
+        },
+        "9FA84DB4-FE7A-4157-AC83-A84ECA55F314" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "manu"
+        },
+        "A0D29367-52A0-41D9-B3E7-0D20CD6E1E10" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rui"
+        },
+        "A7768205-A7B4-4CDC-8CD8-B9A8F1985E0D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kele"
+        },
+        "A8242FD5-1F48-40CE-9EA3-57CEDD6B4278" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kiː"
+        },
+        "A8B16680-32E1-4937-87CE-D13621FED6EF" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kai hoʔon"
+        },
+        "A940369B-EBD1-4D8E-A9B8-C9A2EE5AC74A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lima"
+        },
+        "ABCD8372-302D-4787-B22F-9DA6AC94F1E8" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kuli"
+        },
+        "ACF31086-91AA-4F0F-B2A3-A72A05DFC557" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dotu wai"
+        },
+        "AE20C5C8-85B0-4D27-BAEA-A60FAFB0DCE3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ditu"
+        },
+        "B4D627BD-D637-445C-9DD8-48C7C218702C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ana"
+        },
+        "B8482D16-CBAE-462B-B047-2D3EFCA5CDFD" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "seʔini"
+        },
+        "BE8E0CC5-CEAD-4629-A195-024A683D1A52" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mata"
+        },
+        "C4C02FA4-F531-4B0B-9A55-791D6C586EDA" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ˀlara"
+        },
+        "C9D73B59-73F3-42DB-A54E-B6B0F007C8B6" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nˀasu"
+        },
+        "CE5FA966-D9BA-41B4-B98A-8ED138EE5CA3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "eto"
+        },
+        "D6FB6E39-5FBC-4BD0-AA46-A76A7D488F81" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mai"
+        },
+        "DA11C270-E239-4D24-A4C5-F90470B177C3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nai"
+        },
+        "DC05ED60-4B93-4446-9299-E775F46BF14E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ria"
+        },
+        "DE73A75F-B4F3-4840-96A7-AF53A3533157" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "asi"
+        },
+        "DEF75768-3C73-49D9-9C66-BE9977A7F3A4" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dasu"
+        },
+        "E04B818E-698F-4DFE-B00D-D9B7F7563701" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "oka"
+        },
+        "E31F96C6-95AC-42A2-860D-A68B31D8D958" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "daha ou"
+        },
+        "E356F4CC-2819-47AE-A07F-F019AEA925AD" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hida"
+        },
+        "E35D0CE1-BD3E-44B8-9ED6-14A424412263" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "maʔa"
+        },
+        "E5E90CCF-9E69-4A53-9DDB-C82861726F67" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "oli"
+        },
+        "E65A1EF2-1A21-4F9D-A06A-658D113C5AEA" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hua"
+        },
+        "E70C054E-73F6-4560-B3D0-B8E03677A8B0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "baʔi"
+        },
+        "EDAA711A-86A2-4DF4-A8C0-3AE9D56CCF69" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kai rua"
+        },
+        "F3AE3A37-BDDB-4CF1-A429-F0570A946373" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kʰutu"
+        },
+        "F52A1CB2-F869-4C88-A9D7-E17E905D5FB1" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dene"
+        },
+        "F6120C39-6FAD-4C46-BFDF-9458A993EA33" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tani"
+        },
+        "F6B5266B-65FF-48A6-8FEE-B2243882C43E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "wula"
+        },
+        "F85170D2-DCFC-4B38-99BB-01F7A04C1604" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kʰaː"
+        },
+        "FB7D1567-C63F-4EAB-825D-3C6030BD0C17" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nˀeokai"
+        }
+      }
+    },
+    {
+      "abbreviation" : "tdt",
+      "alternateName" : "",
+      "id" : "9D8A50C0-16AF-41C2-8132-1D085AEEF2CA",
+      "isoCode" : "tdt",
+      "name" : "Tetun Dili",
+      "transcriptions" : {
+        "0200BBF1-3287-4019-A65E-5160B0D10816" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ain tuːr"
+        },
+        "02B8273E-0747-4A0B-B270-364C086DBAA0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tahan"
+        },
+        "073C5FED-6FA9-4737-9227-9C4D8ABF31F3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "seː"
+        },
+        "0D1A5CDC-3712-40A3-9C8B-05BF83E03F4F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "foː"
+        },
+        "11FDDF6B-77D9-47A7-99B9-F0B2532AAF0D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "subar"
+        },
+        "138A0758-3349-42F7-85FD-B0F43E7ABF28" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kalan"
+        },
+        "13DD3F17-7247-46EB-AE1E-C606C1DFF4A2" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tolun"
+        },
+        "14608AE6-557A-488A-95E8-F89EA9F55D6A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hatene"
+        },
+        "1917263E-0FF6-4799-B0A8-5C620249F435" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rai"
+        },
+        "19F0A950-CFDD-4DDD-89A4-363A65B96179" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hiːt"
+        },
+        "1C8BF1BC-CBD9-4FEE-A188-AC100393BA1D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ulun"
+        },
+        "1E1F4147-1F47-4CDB-915B-5456785AEAB7" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ikun"
+        },
+        "20102C89-69A9-4432-A5A3-A5EF763134B0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tuan"
+        },
+        "20D9978A-8EE8-47A4-B05D-39B2A3DBB020" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hamnasa"
+        },
+        "230293C2-973B-4E9E-B4A8-AC5205F45654" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "foun"
+        },
+        "23110255-88D6-4154-9366-F3B82C0AE00A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rai henek"
+        },
+        "2358FCD6-2858-40B7-8BEB-3AFE0F791044" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "sunu"
+        },
+        "2551D258-BCF2-499D-A7D4-6D349DE236B0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "iha neʔebeː"
+        },
+        "269DF2F9-E160-44AD-83CC-A9E90ED80D46" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nihan"
+        },
+        "28F825B8-606C-41A0-8554-87A8F0FF93E0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kabeːn"
+        },
+        "292A77BB-6C0D-4493-A7E8-CC49A55F7923" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nanaːl"
+        },
+        "2AA115A0-D795-4384-8D6E-58DC7CC23E8F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tata"
+        },
+        "2E7BB620-27C7-4611-BCE4-262E1763D920" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dehan"
+        },
+        "2F175543-6263-4E2C-83EB-632907E49C58" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kelen"
+        },
+        "3AC73A3A-040A-4ABC-B25B-661379779901" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "fatuk"
+        },
+        "3C48640F-D41F-4047-916A-534C84E43027" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "huː"
+        },
+        "3D5FC0EB-73BE-457D-96D8-228ECBEEDC5C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "husar"
+        },
+        "3E0AC70A-AD33-4B41-85E0-ED2647B7C058" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mutin"
+        },
+        "3E4B02FA-8306-47A5-8460-DE89DBB4290A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hareː"
+        },
+        "3EB42CF1-9B60-49E7-9F9A-5E8AC47EDA76" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "naruk"
+        },
+        "3F7B1099-2EB8-4C40-8A11-DF61820FE45C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "naʔan"
+        },
+        "438B18A5-9268-4662-AF99-BDFBC7B41D3B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "fitun"
+        },
+        "43CC3B6B-F697-4EEE-8293-9EBC1208A837" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nehek"
+        },
+        "46388F0C-4AC5-44AE-A1C8-B7D5859CEBC3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "susun"
+        },
+        "49140774-9F53-4492-A3F5-01A2E3712732" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "halo"
+        },
+        "4BED9561-5909-4750-8DE2-CCB1D8D63B28" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "liras"
+        },
+        "4C4EBCDA-DE02-4067-9014-F44ABF4E023D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "uma"
+        },
+        "52B0A481-D001-47A5-8340-98970406F00D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "baː"
+        },
+        "5416EBC7-6360-4AA9-BF06-F22E2AEFB8EC" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lori"
+        },
+        "54FB1F9F-E7E7-4E17-9B10-06930FB549DB" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ibun"
+        },
+        "551AD3EB-314B-438F-82B8-D08787F4C5C0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dalan"
+        },
+        "57EF25B0-BDC7-4066-9D95-4458DE309273" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ita"
+        },
+        "5AEAC8E4-9512-4ED0-B6CC-D794939825F0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "halai"
+        },
+        "5AEBB462-B4A9-476A-8170-A3F28D040744" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "raːn"
+        },
+        "5DBE9BB5-4A93-461B-889F-166A9F8F8DD4" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "haʔu"
+        },
+        "5F1FD110-4297-4C23-A12C-0197FCB24524" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "udan"
+        },
+        "62EA257D-1D2B-42F1-8B47-480A197A8A1D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "beː"
+        },
+        "6ACBEF4C-01AD-4A45-B094-EA08ED69584F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "aten"
+        },
+        "6E08B9E3-CD37-4BE0-8110-83D267C33E1C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kesi"
+        },
+        "6FA41990-07A7-43D9-AE56-D1A42E745786" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "laː"
+        },
+        "6FEE74CE-EBFF-4D00-8CC0-B8F1013A048D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ahi"
+        },
+        "720DC56D-5DDD-45EB-898C-38F11910A986" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mate"
+        },
+        "7780F4DB-237A-4A1A-A58E-5753CDDAD4EC" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "fuːk"
+        },
+        "77BD1AF5-2720-46AE-9EB6-798729A8D6D9" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ami"
+        },
+        "7C2B1C34-7E0F-4B34-9337-81E4EC436FC2" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ai"
+        },
+        "8045BD33-BAF9-45AA-91E5-0FBE3A9EA858" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "o"
+        },
+        "8347BF0C-33AE-4100-AD89-3602FE49F307" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "metan"
+        },
+        "84B59EB8-2817-4366-9F63-DF3CCA19F0C0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "todan"
+        },
+        "8A0380B8-DE4E-466D-A7A0-63FA0BE95402" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "diʔak"
+        },
+        "8A21430C-2CFD-412D-8105-7783353981E5" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ida"
+        },
+        "8B6BB2B9-1560-48A4-BDFC-2A91CEA20C9B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "horiseik"
+        },
+        "8DD62FEF-037F-4A06-B298-B06E158DC259" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "saʔida"
+        },
+        "8F727293-7FA8-4FC6-AE8C-062152EEC8D1" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lees"
+        },
+        "98E050E7-E56F-4497-87D6-6F79F4D39C91" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "anin"
+        },
+        "9EDD5DFA-AB25-4843-B5ED-C52D821F0E91" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hemu"
+        },
+        "9FA84DB4-FE7A-4157-AC83-A84ECA55F314" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "manu"
+        },
+        "A0D29367-52A0-41D9-B3E7-0D20CD6E1E10" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ruin"
+        },
+        "A7768205-A7B4-4CDC-8CD8-B9A8F1985E0D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ain"
+        },
+        "A8242FD5-1F48-40CE-9EA3-57CEDD6B4278" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ema"
+        },
+        "A8B16680-32E1-4937-87CE-D13621FED6EF" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ai huːn"
+        },
+        "A940369B-EBD1-4D8E-A9B8-C9A2EE5AC74A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "liman"
+        },
+        "ABCD8372-302D-4787-B22F-9DA6AC94F1E8" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kulit"
+        },
+        "ACF31086-91AA-4F0F-B2A3-A72A05DFC557" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ikan"
+        },
+        "AE20C5C8-85B0-4D27-BAEA-A60FAFB0DCE3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hamriːk"
+        },
+        "B4D627BD-D637-445C-9DD8-48C7C218702C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "oan"
+        },
+        "B8482D16-CBAE-462B-B047-2D3EFCA5CDFD" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "neʔe"
+        },
+        "BE8E0CC5-CEAD-4629-A195-024A683D1A52" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "matan"
+        },
+        "C4C02FA4-F531-4B0B-9A55-791D6C586EDA" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "loron matan"
+        },
+        "C9D73B59-73F3-42DB-A54E-B6B0F007C8B6" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ahi suar"
+        },
+        "CE5FA966-D9BA-41B4-B98A-8ED138EE5CA3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nia"
+        },
+        "D6FB6E39-5FBC-4BD0-AA46-A76A7D488F81" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mai"
+        },
+        "DA11C270-E239-4D24-A4C5-F90470B177C3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "naran"
+        },
+        "DC05ED60-4B93-4446-9299-E775F46BF14E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mahon"
+        },
+        "DE73A75F-B4F3-4840-96A7-AF53A3533157" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "masin"
+        },
+        "DEF75768-3C73-49D9-9C66-BE9977A7F3A4" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "asu"
+        },
+        "E04B818E-698F-4DFE-B00D-D9B7F7563701" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "abut"
+        },
+        "E31F96C6-95AC-42A2-860D-A68B31D8D958" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ahi kadesan"
+        },
+        "E356F4CC-2819-47AE-A07F-F019AEA925AD" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "oho"
+        },
+        "E35D0CE1-BD3E-44B8-9ED6-14A424412263" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hotu"
+        },
+        "E5E90CCF-9E69-4A53-9DDB-C82861726F67" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "boːt"
+        },
+        "E65A1EF2-1A21-4F9D-A06A-658D113C5AEA" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "semo"
+        },
+        "E70C054E-73F6-4560-B3D0-B8E03677A8B0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "moruk"
+        },
+        "EDAA711A-86A2-4DF4-A8C0-3AE9D56CCF69" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rua"
+        },
+        "F3AE3A37-BDDB-4CF1-A429-F0570A946373" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kutun"
+        },
+        "F52A1CB2-F869-4C88-A9D7-E17E905D5FB1" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rona"
+        },
+        "F6120C39-6FAD-4C46-BFDF-9458A993EA33" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tanis"
+        },
+        "F6B5266B-65FF-48A6-8FEE-B2243882C43E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "fulan"
+        },
+        "F85170D2-DCFC-4B38-99BB-01F7A04C1604" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "haːn"
+        },
+        "FB7D1567-C63F-4EAB-825D-3C6030BD0C17" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kakorok"
+        }
+      }
+    },
+    {
+      "abbreviation" : "hbu",
+      "alternateName" : "",
+      "id" : "514CE374-85CF-4089-8C6F-236A841DF372",
+      "isoCode" : "hbu",
+      "name" : "Habun",
+      "transcriptions" : {
+        "0200BBF1-3287-4019-A65E-5160B0D10816" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tuʔun"
+        },
+        "02B8273E-0747-4A0B-B270-364C086DBAA0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "raun"
+        },
+        "073C5FED-6FA9-4737-9227-9C4D8ABF31F3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "se"
+        },
+        "0D1A5CDC-3712-40A3-9C8B-05BF83E03F4F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "we"
+        },
+        "138A0758-3349-42F7-85FD-B0F43E7ABF28" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lahetan"
+        },
+        "13DD3F17-7247-46EB-AE1E-C606C1DFF4A2" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "telin"
+        },
+        "14608AE6-557A-488A-95E8-F89EA9F55D6A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tara"
+        },
+        "1917263E-0FF6-4799-B0A8-5C620249F435" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rai"
+        },
+        "1C8BF1BC-CBD9-4FEE-A188-AC100393BA1D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ulun"
+        },
+        "1E1F4147-1F47-4CDB-915B-5456785AEAB7" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ikin"
+        },
+        "20102C89-69A9-4432-A5A3-A5EF763134B0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tuan"
+        },
+        "20D9978A-8EE8-47A4-B05D-39B2A3DBB020" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mali"
+        },
+        "230293C2-973B-4E9E-B4A8-AC5205F45654" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "woun"
+        },
+        "23110255-88D6-4154-9366-F3B82C0AE00A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dadean"
+        },
+        "2358FCD6-2858-40B7-8BEB-3AFE0F791044" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "sini"
+        },
+        "2551D258-BCF2-499D-A7D4-6D349DE236B0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ti baʔa"
+        },
+        "269DF2F9-E160-44AD-83CC-A9E90ED80D46" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "niʔin"
+        },
+        "292A77BB-6C0D-4493-A7E8-CC49A55F7923" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nanan"
+        },
+        "2AA115A0-D795-4384-8D6E-58DC7CC23E8F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "woi"
+        },
+        "2E7BB620-27C7-4611-BCE4-262E1763D920" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "na suʔa"
+        },
+        "2F175543-6263-4E2C-83EB-632907E49C58" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kelen"
+        },
+        "3AC73A3A-040A-4ABC-B25B-661379779901" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "watu"
+        },
+        "3E0AC70A-AD33-4B41-85E0-ED2647B7C058" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "butin"
+        },
+        "3E4B02FA-8306-47A5-8460-DE89DBB4290A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "neninu"
+        },
+        "3EB42CF1-9B60-49E7-9F9A-5E8AC47EDA76" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "narun"
+        },
+        "3F7B1099-2EB8-4C40-8A11-DF61820FE45C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "naken"
+        },
+        "438B18A5-9268-4662-AF99-BDFBC7B41D3B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "witun"
+        },
+        "46388F0C-4AC5-44AE-A1C8-B7D5859CEBC3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "susu"
+        },
+        "52B0A481-D001-47A5-8340-98970406F00D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "neti"
+        },
+        "54FB1F9F-E7E7-4E17-9B10-06930FB549DB" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "waban"
+        },
+        "57EF25B0-BDC7-4066-9D95-4458DE309273" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kita"
+        },
+        "5AEAC8E4-9512-4ED0-B6CC-D794939825F0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lai"
+        },
+        "5AEBB462-B4A9-476A-8170-A3F28D040744" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ran"
+        },
+        "5DBE9BB5-4A93-461B-889F-166A9F8F8DD4" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "eku"
+        },
+        "5F1FD110-4297-4C23-A12C-0197FCB24524" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "oe"
+        },
+        "62EA257D-1D2B-42F1-8B47-480A197A8A1D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "wai"
+        },
+        "6ACBEF4C-01AD-4A45-B094-EA08ED69584F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "aten"
+        },
+        "6FA41990-07A7-43D9-AE56-D1A42E745786" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "la iha"
+        },
+        "6FEE74CE-EBFF-4D00-8CC0-B8F1013A048D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ahi"
+        },
+        "720DC56D-5DDD-45EB-898C-38F11910A986" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mate"
+        },
+        "7780F4DB-237A-4A1A-A58E-5753CDDAD4EC" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ulun raun"
+        },
+        "77BD1AF5-2720-46AE-9EB6-798729A8D6D9" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kami"
+        },
+        "7C2B1C34-7E0F-4B34-9337-81E4EC436FC2" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kau"
+        },
+        "8045BD33-BAF9-45AA-91E5-0FBE3A9EA858" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ko"
+        },
+        "8347BF0C-33AE-4100-AD89-3602FE49F307" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "metan"
+        },
+        "8A0380B8-DE4E-466D-A7A0-63FA0BE95402" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hian"
+        },
+        "8A21430C-2CFD-412D-8105-7783353981E5" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "isa"
+        },
+        "8DD62FEF-037F-4A06-B298-B06E158DC259" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "sania"
+        },
+        "8F727293-7FA8-4FC6-AE8C-062152EEC8D1" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hana"
+        },
+        "98E050E7-E56F-4497-87D6-6F79F4D39C91" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "anin"
+        },
+        "9EDD5DFA-AB25-4843-B5ED-C52D821F0E91" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rinu"
+        },
+        "9FA84DB4-FE7A-4157-AC83-A84ECA55F314" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "manu"
+        },
+        "A0D29367-52A0-41D9-B3E7-0D20CD6E1E10" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ruin"
+        },
+        "A7768205-A7B4-4CDC-8CD8-B9A8F1985E0D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ain"
+        },
+        "A8242FD5-1F48-40CE-9EA3-57CEDD6B4278" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kera"
+        },
+        "A8B16680-32E1-4937-87CE-D13621FED6EF" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kau"
+        },
+        "A940369B-EBD1-4D8E-A9B8-C9A2EE5AC74A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "liman"
+        },
+        "ABCD8372-302D-4787-B22F-9DA6AC94F1E8" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kakun"
+        },
+        "ACF31086-91AA-4F0F-B2A3-A72A05DFC557" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ikan"
+        },
+        "AE20C5C8-85B0-4D27-BAEA-A60FAFB0DCE3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "sia"
+        },
+        "B4D627BD-D637-445C-9DD8-48C7C218702C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "wan toʔin"
+        },
+        "B8482D16-CBAE-462B-B047-2D3EFCA5CDFD" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "no"
+        },
+        "BE8E0CC5-CEAD-4629-A195-024A683D1A52" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "matan"
+        },
+        "C4C02FA4-F531-4B0B-9A55-791D6C586EDA" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lorok matan"
+        },
+        "C9D73B59-73F3-42DB-A54E-B6B0F007C8B6" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "bok"
+        },
+        "CE5FA966-D9BA-41B4-B98A-8ED138EE5CA3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ia"
+        },
+        "D6FB6E39-5FBC-4BD0-AA46-A76A7D488F81" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mai"
+        },
+        "DA11C270-E239-4D24-A4C5-F90470B177C3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "naran"
+        },
+        "DE73A75F-B4F3-4840-96A7-AF53A3533157" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "masin"
+        },
+        "DEF75768-3C73-49D9-9C66-BE9977A7F3A4" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "asu"
+        },
+        "E04B818E-698F-4DFE-B00D-D9B7F7563701" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kau amun"
+        },
+        "E356F4CC-2819-47AE-A07F-F019AEA925AD" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hehe"
+        },
+        "E35D0CE1-BD3E-44B8-9ED6-14A424412263" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lobu"
+        },
+        "E5E90CCF-9E69-4A53-9DDB-C82861726F67" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "wakin"
+        },
+        "E65A1EF2-1A21-4F9D-A06A-658D113C5AEA" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lira"
+        },
+        "EDAA711A-86A2-4DF4-A8C0-3AE9D56CCF69" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rua"
+        },
+        "F3AE3A37-BDDB-4CF1-A429-F0570A946373" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kutu"
+        },
+        "F52A1CB2-F869-4C88-A9D7-E17E905D5FB1" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rene"
+        },
+        "F6120C39-6FAD-4C46-BFDF-9458A993EA33" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hana"
+        },
+        "F6B5266B-65FF-48A6-8FEE-B2243882C43E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "wulan"
+        },
+        "F85170D2-DCFC-4B38-99BB-01F7A04C1604" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ka"
+        },
+        "FB7D1567-C63F-4EAB-825D-3C6030BD0C17" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kakoro"
+        }
+      }
+    },
+    {
+      "abbreviation" : "gal",
+      "alternateName" : "",
+      "id" : "743C505B-1AE1-4B91-8B39-D550E8671A93",
+      "isoCode" : "gal",
+      "name" : "Galolen",
+      "transcriptions" : {
+        "0200BBF1-3287-4019-A65E-5160B0D10816" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "iklurur"
+        },
+        "02B8273E-0747-4A0B-B270-364C086DBAA0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tai roːn"
+        },
+        "0D1A5CDC-3712-40A3-9C8B-05BF83E03F4F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ne"
+        },
+        "11FDDF6B-77D9-47A7-99B9-F0B2532AAF0D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rahunin"
+        },
+        "138A0758-3349-42F7-85FD-B0F43E7ABF28" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "henin"
+        },
+        "13DD3F17-7247-46EB-AE1E-C606C1DFF4A2" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "telun"
+        },
+        "14608AE6-557A-488A-95E8-F89EA9F55D6A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nau"
+        },
+        "19F0A950-CFDD-4DDD-89A4-363A65B96179" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lebar"
+        },
+        "1C8BF1BC-CBD9-4FEE-A188-AC100393BA1D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "garer"
+        },
+        "1E1F4147-1F47-4CDB-915B-5456785AEAB7" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "iʔun"
+        },
+        "20102C89-69A9-4432-A5A3-A5EF763134B0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lalaʔit"
+        },
+        "20D9978A-8EE8-47A4-B05D-39B2A3DBB020" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mali"
+        },
+        "230293C2-973B-4E9E-B4A8-AC5205F45654" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "heu"
+        },
+        "23110255-88D6-4154-9366-F3B82C0AE00A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dadean"
+        },
+        "269DF2F9-E160-44AD-83CC-A9E90ED80D46" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "niːs"
+        },
+        "28F825B8-606C-41A0-8554-87A8F0FF93E0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "susu"
+        },
+        "292A77BB-6C0D-4493-A7E8-CC49A55F7923" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nanaːr"
+        },
+        "2AA115A0-D795-4384-8D6E-58DC7CC23E8F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hisi"
+        },
+        "2E7BB620-27C7-4611-BCE4-262E1763D920" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "buʔa"
+        },
+        "3AC73A3A-040A-4ABC-B25B-661379779901" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hatu"
+        },
+        "3E0AC70A-AD33-4B41-85E0-ED2647B7C058" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "buti"
+        },
+        "3E4B02FA-8306-47A5-8460-DE89DBB4290A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "raninu"
+        },
+        "3EB42CF1-9B60-49E7-9F9A-5E8AC47EDA76" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "naru"
+        },
+        "3F7B1099-2EB8-4C40-8A11-DF61820FE45C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "naken"
+        },
+        "438B18A5-9268-4662-AF99-BDFBC7B41D3B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ada"
+        },
+        "43CC3B6B-F697-4EEE-8293-9EBC1208A837" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kluan"
+        },
+        "46388F0C-4AC5-44AE-A1C8-B7D5859CEBC3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "susun"
+        },
+        "4BED9561-5909-4750-8DE2-CCB1D8D63B28" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lilus"
+        },
+        "4C4EBCDA-DE02-4067-9014-F44ABF4E023D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "uma"
+        },
+        "52B0A481-D001-47A5-8340-98970406F00D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "laʔa"
+        },
+        "57EF25B0-BDC7-4066-9D95-4458DE309273" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "gita"
+        },
+        "5AEAC8E4-9512-4ED0-B6CC-D794939825F0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lai"
+        },
+        "5AEBB462-B4A9-476A-8170-A3F28D040744" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "raː"
+        },
+        "5DBE9BB5-4A93-461B-889F-166A9F8F8DD4" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "gaʔu"
+        },
+        "5F1FD110-4297-4C23-A12C-0197FCB24524" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "usan"
+        },
+        "62EA257D-1D2B-42F1-8B47-480A197A8A1D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "weː"
+        },
+        "6ACBEF4C-01AD-4A45-B094-EA08ED69584F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "aten"
+        },
+        "6E08B9E3-CD37-4BE0-8110-83D267C33E1C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "siːr"
+        },
+        "6FA41990-07A7-43D9-AE56-D1A42E745786" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "taik"
+        },
+        "6FEE74CE-EBFF-4D00-8CC0-B8F1013A048D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "imorin"
+        },
+        "720DC56D-5DDD-45EB-898C-38F11910A986" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mate"
+        },
+        "77BD1AF5-2720-46AE-9EB6-798729A8D6D9" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "gami"
+        },
+        "7C2B1C34-7E0F-4B34-9337-81E4EC436FC2" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ai"
+        },
+        "8045BD33-BAF9-45AA-91E5-0FBE3A9EA858" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "go"
+        },
+        "8347BF0C-33AE-4100-AD89-3602FE49F307" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "metan"
+        },
+        "8A0380B8-DE4E-466D-A7A0-63FA0BE95402" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lalaːn"
+        },
+        "8A21430C-2CFD-412D-8105-7783353981E5" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nehe"
+        },
+        "8B6BB2B9-1560-48A4-BDFC-2A91CEA20C9B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nainhuan"
+        },
+        "8DD62FEF-037F-4A06-B298-B06E158DC259" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "laː"
+        },
+        "8F727293-7FA8-4FC6-AE8C-062152EEC8D1" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tanis"
+        },
+        "98E050E7-E56F-4497-87D6-6F79F4D39C91" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "anin"
+        },
+        "9EDD5DFA-AB25-4843-B5ED-C52D821F0E91" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "renu"
+        },
+        "9FA84DB4-FE7A-4157-AC83-A84ECA55F314" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "manu"
+        },
+        "A8242FD5-1F48-40CE-9EA3-57CEDD6B4278" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "itobu"
+        },
+        "A8B16680-32E1-4937-87CE-D13621FED6EF" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ai"
+        },
+        "ACF31086-91AA-4F0F-B2A3-A72A05DFC557" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "iʔan"
+        },
+        "AE20C5C8-85B0-4D27-BAEA-A60FAFB0DCE3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rabariː"
+        },
+        "B4D627BD-D637-445C-9DD8-48C7C218702C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ana"
+        },
+        "B8482D16-CBAE-462B-B047-2D3EFCA5CDFD" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "leʔi"
+        },
+        "C4C02FA4-F531-4B0B-9A55-791D6C586EDA" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lelo"
+        },
+        "C9D73B59-73F3-42DB-A54E-B6B0F007C8B6" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "immorin masun"
+        },
+        "CE5FA966-D9BA-41B4-B98A-8ED138EE5CA3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ni"
+        },
+        "D6FB6E39-5FBC-4BD0-AA46-A76A7D488F81" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mai"
+        },
+        "DE73A75F-B4F3-4840-96A7-AF53A3533157" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "masin"
+        },
+        "DEF75768-3C73-49D9-9C66-BE9977A7F3A4" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "asu"
+        },
+        "E04B818E-698F-4DFE-B00D-D9B7F7563701" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "amut"
+        },
+        "E31F96C6-95AC-42A2-860D-A68B31D8D958" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ijahun"
+        },
+        "E356F4CC-2819-47AE-A07F-F019AEA925AD" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ramate"
+        },
+        "E35D0CE1-BD3E-44B8-9ED6-14A424412263" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "soruk"
+        },
+        "E5E90CCF-9E69-4A53-9DDB-C82861726F67" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "waki"
+        },
+        "E65A1EF2-1A21-4F9D-A06A-658D113C5AEA" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lalar"
+        },
+        "E70C054E-73F6-4560-B3D0-B8E03677A8B0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "meluk"
+        },
+        "EDAA711A-86A2-4DF4-A8C0-3AE9D56CCF69" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "irua"
+        },
+        "F3AE3A37-BDDB-4CF1-A429-F0570A946373" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ʔutu"
+        },
+        "F6120C39-6FAD-4C46-BFDF-9458A993EA33" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tanis"
+        },
+        "F85170D2-DCFC-4B38-99BB-01F7A04C1604" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "raʔan"
+        },
+        "FB7D1567-C63F-4EAB-825D-3C6030BD0C17" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kakorok"
+        }
+      }
+    },
+    {
+      "abbreviation" : "mkz",
+      "alternateName" : "",
+      "id" : "9B8BA586-685A-4BE5-9D21-B2C1D5FB41D7",
+      "isoCode" : "mkz",
+      "name" : "Makasae",
+      "transcriptions" : {
+        "0200BBF1-3287-4019-A65E-5160B0D10816" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "iti koru"
+        },
+        "02B8273E-0747-4A0B-B270-364C086DBAA0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ate asa"
+        },
+        "073C5FED-6FA9-4737-9227-9C4D8ABF31F3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nahireʔe"
+        },
+        "0D1A5CDC-3712-40A3-9C8B-05BF83E03F4F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "gini"
+        },
+        "11FDDF6B-77D9-47A7-99B9-F0B2532AAF0D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "boko"
+        },
+        "138A0758-3349-42F7-85FD-B0F43E7ABF28" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "gamu"
+        },
+        "13DD3F17-7247-46EB-AE1E-C606C1DFF4A2" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "waha"
+        },
+        "14608AE6-557A-488A-95E8-F89EA9F55D6A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "maʔene"
+        },
+        "1917263E-0FF6-4799-B0A8-5C620249F435" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "muʔa"
+        },
+        "19F0A950-CFDD-4DDD-89A4-363A65B96179" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nake"
+        },
+        "1C8BF1BC-CBD9-4FEE-A188-AC100393BA1D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "daʔe"
+        },
+        "1E1F4147-1F47-4CDB-915B-5456785AEAB7" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ula"
+        },
+        "20102C89-69A9-4432-A5A3-A5EF763134B0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "laʔiri"
+        },
+        "20D9978A-8EE8-47A4-B05D-39B2A3DBB020" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "iʔa"
+        },
+        "230293C2-973B-4E9E-B4A8-AC5205F45654" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "sufa"
+        },
+        "23110255-88D6-4154-9366-F3B82C0AE00A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "imika"
+        },
+        "2358FCD6-2858-40B7-8BEB-3AFE0F791044" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "doe"
+        },
+        "2551D258-BCF2-499D-A7D4-6D349DE236B0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nahigalu"
+        },
+        "269DF2F9-E160-44AD-83CC-A9E90ED80D46" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "wasi"
+        },
+        "2AA115A0-D795-4384-8D6E-58DC7CC23E8F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "kiʔi"
+        },
+        "2E7BB620-27C7-4611-BCE4-262E1763D920" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lolo"
+        },
+        "2F175543-6263-4E2C-83EB-632907E49C58" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "iti bata"
+        },
+        "3AC73A3A-040A-4ABC-B25B-661379779901" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "afa"
+        },
+        "3C48640F-D41F-4047-916A-534C84E43027" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "guhuru"
+        },
+        "3D5FC0EB-73BE-457D-96D8-228ECBEEDC5C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ilu mana"
+        },
+        "3E0AC70A-AD33-4B41-85E0-ED2647B7C058" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "butiri"
+        },
+        "3E4B02FA-8306-47A5-8460-DE89DBB4290A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "buna"
+        },
+        "3EB42CF1-9B60-49E7-9F9A-5E8AC47EDA76" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "asana"
+        },
+        "3F7B1099-2EB8-4C40-8A11-DF61820FE45C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "seu"
+        },
+        "438B18A5-9268-4662-AF99-BDFBC7B41D3B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ifi"
+        },
+        "43CC3B6B-F697-4EEE-8293-9EBC1208A837" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "muʔulai"
+        },
+        "46388F0C-4AC5-44AE-A1C8-B7D5859CEBC3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "dudu"
+        },
+        "49140774-9F53-4492-A3F5-01A2E3712732" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "gini"
+        },
+        "4BED9561-5909-4750-8DE2-CCB1D8D63B28" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lia"
+        },
+        "4C4EBCDA-DE02-4067-9014-F44ABF4E023D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "oma"
+        },
+        "52B0A481-D001-47A5-8340-98970406F00D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "laʔa"
+        },
+        "5416EBC7-6360-4AA9-BF06-F22E2AEFB8EC" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nake"
+        },
+        "54FB1F9F-E7E7-4E17-9B10-06930FB549DB" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "aʔa"
+        },
+        "551AD3EB-314B-438F-82B8-D08787F4C5C0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hiʔa"
+        },
+        "57EF25B0-BDC7-4066-9D95-4458DE309273" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "fi"
+        },
+        "5AEAC8E4-9512-4ED0-B6CC-D794939825F0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ria"
+        },
+        "5AEBB462-B4A9-476A-8170-A3F28D040744" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "wai"
+        },
+        "5DBE9BB5-4A93-461B-889F-166A9F8F8DD4" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ani"
+        },
+        "5F1FD110-4297-4C23-A12C-0197FCB24524" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ae"
+        },
+        "62EA257D-1D2B-42F1-8B47-480A197A8A1D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ira"
+        },
+        "6ACBEF4C-01AD-4A45-B094-EA08ED69584F" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ari"
+        },
+        "6E08B9E3-CD37-4BE0-8110-83D267C33E1C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "siʔili, boːro"
+        },
+        "6FA41990-07A7-43D9-AE56-D1A42E745786" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tosai"
+        },
+        "6FEE74CE-EBFF-4D00-8CC0-B8F1013A048D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ata"
+        },
+        "720DC56D-5DDD-45EB-898C-38F11910A986" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "umu"
+        },
+        "7780F4DB-237A-4A1A-A58E-5753CDDAD4EC" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "daʔe asa"
+        },
+        "77BD1AF5-2720-46AE-9EB6-798729A8D6D9" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ini"
+        },
+        "7C2B1C34-7E0F-4B34-9337-81E4EC436FC2" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ate "
+        },
+        "8045BD33-BAF9-45AA-91E5-0FBE3A9EA858" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ai"
+        },
+        "8347BF0C-33AE-4100-AD89-3602FE49F307" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "metana"
+        },
+        "84B59EB8-2817-4366-9F63-DF3CCA19F0C0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tiʔiri"
+        },
+        "8A0380B8-DE4E-466D-A7A0-63FA0BE95402" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "rau"
+        },
+        "8A21430C-2CFD-412D-8105-7783353981E5" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "u"
+        },
+        "8B6BB2B9-1560-48A4-BDFC-2A91CEA20C9B" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "wesereʔe"
+        },
+        "8DD62FEF-037F-4A06-B298-B06E158DC259" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "naʔi"
+        },
+        "98E050E7-E56F-4497-87D6-6F79F4D39C91" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "gawa"
+        },
+        "9EDD5DFA-AB25-4843-B5ED-C52D821F0E91" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "gehe"
+        },
+        "9FA84DB4-FE7A-4157-AC83-A84ECA55F314" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "asa"
+        },
+        "A7768205-A7B4-4CDC-8CD8-B9A8F1985E0D" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "titi"
+        },
+        "A8242FD5-1F48-40CE-9EA3-57CEDD6B4278" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "anu"
+        },
+        "A8B16680-32E1-4937-87CE-D13621FED6EF" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ate bata"
+        },
+        "A940369B-EBD1-4D8E-A9B8-C9A2EE5AC74A" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "tana"
+        },
+        "ABCD8372-302D-4787-B22F-9DA6AC94F1E8" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "uli"
+        },
+        "ACF31086-91AA-4F0F-B2A3-A72A05DFC557" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "afi"
+        },
+        "AE20C5C8-85B0-4D27-BAEA-A60FAFB0DCE3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "etena"
+        },
+        "B4D627BD-D637-445C-9DD8-48C7C218702C" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "mata"
+        },
+        "B8482D16-CBAE-462B-B047-2D3EFCA5CDFD" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ere"
+        },
+        "BE8E0CC5-CEAD-4629-A195-024A683D1A52" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nana"
+        },
+        "C4C02FA4-F531-4B0B-9A55-791D6C586EDA" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "watu"
+        },
+        "C9D73B59-73F3-42DB-A54E-B6B0F007C8B6" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ata teu"
+        },
+        "CE5FA966-D9BA-41B4-B98A-8ED138EE5CA3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "gi"
+        },
+        "D6FB6E39-5FBC-4BD0-AA46-A76A7D488F81" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "maʔu"
+        },
+        "DA11C270-E239-4D24-A4C5-F90470B177C3" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nai"
+        },
+        "DC05ED60-4B93-4446-9299-E775F46BF14E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "iana"
+        },
+        "DE73A75F-B4F3-4840-96A7-AF53A3533157" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "gasi"
+        },
+        "DEF75768-3C73-49D9-9C66-BE9977A7F3A4" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "defa"
+        },
+        "E04B818E-698F-4DFE-B00D-D9B7F7563701" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ari"
+        },
+        "E31F96C6-95AC-42A2-860D-A68B31D8D958" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ata loe"
+        },
+        "E356F4CC-2819-47AE-A07F-F019AEA925AD" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "guta"
+        },
+        "E35D0CE1-BD3E-44B8-9ED6-14A424412263" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "hausaʔi"
+        },
+        "E5E90CCF-9E69-4A53-9DDB-C82861726F67" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "bere"
+        },
+        "E65A1EF2-1A21-4F9D-A06A-658D113C5AEA" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ririki"
+        },
+        "E70C054E-73F6-4560-B3D0-B8E03677A8B0" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "biːki"
+        },
+        "EDAA711A-86A2-4DF4-A8C0-3AE9D56CCF69" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "lolaʔe"
+        },
+        "F3AE3A37-BDDB-4CF1-A429-F0570A946373" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "ami"
+        },
+        "F52A1CB2-F869-4C88-A9D7-E17E905D5FB1" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "wali"
+        },
+        "F6120C39-6FAD-4C46-BFDF-9458A993EA33" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "iara"
+        },
+        "F6B5266B-65FF-48A6-8FEE-B2243882C43E" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "uru"
+        },
+        "F85170D2-DCFC-4B38-99BB-01F7A04C1604" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "nawa"
+        },
+        "FB7D1567-C63F-4EAB-825D-3C6030BD0C17" : {
+          "notes" : "",
+          "pluralFrame" : "",
+          "synonyms" : [
+
+          ],
+          "transcription" : "manikai"
+        }
+      }
+    }
+  ]
+}

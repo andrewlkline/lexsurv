@@ -1,0 +1,216 @@
+{
+  "glosses" : [
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-000000000001",
+      "pos" : "N",
+      "primary" : "water",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-000000000002",
+      "pos" : "N",
+      "primary" : "fire",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-000000000003",
+      "pos" : "N",
+      "primary" : "sun",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-000000000004",
+      "pos" : "N",
+      "primary" : "moon",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-000000000005",
+      "pos" : "N",
+      "primary" : "star",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-000000000006",
+      "pos" : "N",
+      "primary" : "head",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-000000000007",
+      "pos" : "N",
+      "primary" : "eye",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-000000000008",
+      "pos" : "N",
+      "primary" : "ear",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-000000000009",
+      "pos" : "N",
+      "primary" : "nose",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-00000000000A",
+      "pos" : "N",
+      "primary" : "mouth",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-00000000000B",
+      "pos" : "N",
+      "primary" : "tooth",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-00000000000C",
+      "pos" : "N",
+      "primary" : "tongue",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-00000000000D",
+      "pos" : "N",
+      "primary" : "hand",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-00000000000E",
+      "pos" : "N",
+      "primary" : "foot",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-00000000000F",
+      "pos" : "N",
+      "primary" : "heart",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-000000000010",
+      "pos" : "N",
+      "primary" : "blood",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-000000000011",
+      "pos" : "N",
+      "primary" : "bone",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-000000000012",
+      "pos" : "N",
+      "primary" : "skin",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-000000000013",
+      "pos" : "N",
+      "primary" : "dog",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-000000000014",
+      "pos" : "N",
+      "primary" : "bird",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-000000000015",
+      "pos" : "N",
+      "primary" : "fish",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-000000000016",
+      "pos" : "N",
+      "primary" : "tree",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-000000000017",
+      "pos" : "N",
+      "primary" : "stone",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-000000000018",
+      "pos" : "N",
+      "primary" : "night",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-000000000019",
+      "pos" : "N",
+      "primary" : "rain",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-00000000001A",
+      "pos" : "A",
+      "primary" : "good",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-00000000001B",
+      "pos" : "A",
+      "primary" : "new",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-00000000001C",
+      "pos" : "Q",
+      "primary" : "one",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-00000000001D",
+      "pos" : "Q",
+      "primary" : "two",
+      "secondary" : ""
+    },
+    {
+      "fieldTip" : "",
+      "id" : "00000001-0000-0000-0000-00000000001E",
+      "pos" : "Q",
+      "primary" : "three",
+      "secondary" : ""
+    }
+  ],
+  "id" : "11111111-1111-1111-1111-111111111111",
+  "name" : "Romance basic vocabulary"
+}
